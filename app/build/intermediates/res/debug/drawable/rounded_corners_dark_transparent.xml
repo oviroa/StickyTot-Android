@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <stroke android:width="1dip" android:color="#ff14808b" /> 
+    <solid android:color="#aa2d8891" /> 
+    <padding android:left="2dip" android:top="2dip" 
+            android:right="2dip" android:bottom="2dip" /> 
+    <corners android:radius="2dip" /> 
+</shape> 
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/drawable/rounded_corners_dark_transparent.xml -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <translate
+        android:fromXDelta="100%"
+        android:toXDelta="0%"
+        android:fromYDelta="0%"
+        android:toYDelta="0%"
+        android:duration="300"
+        android:zAdjustment="top" /> 
+    
+</set>
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/anim/toggle_button_left_in_vertical.xml -->

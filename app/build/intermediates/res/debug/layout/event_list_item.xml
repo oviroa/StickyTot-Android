@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:droidfu="http://github.com/droidfu/schema"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/list_selector"
+              android:padding="8dip">
+
+<RelativeLayout
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearEvents">
+	
+	
+	
+	
+	<ProgressBar android:indeterminate="true"
+            android:layout_width="75dip" 
+            android:layout_height="75dip"
+            android:padding="20dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginTop="2dip"
+            android:indeterminateDrawable="@drawable/loading_rotation"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/rounded_corners_noimage"/>
+	
+
+	
+	<ImageView android:id="@+id/bbEventImage"
+           android:scaleType="centerCrop"
+           android:layout_width="75dip"
+           android:layout_height="75dip"
+           android:gravity = "center"
+           android:layout_marginLeft="2dip"
+           android:layout_marginTop="2dip"/>
+	
+    
+    <ImageView 
+		   android:layout_width="79dip"
+           android:layout_height="79dip"
+           android:background="@drawable/rounded_corners_photo"	/>
+     
+     <TextView android:id="@+id/bbEventDate"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="left|center"
+              android:layout_toRightOf="@id/bbEventImage"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:textColor="@color/bbMainTextColor"
+              android:layout_marginTop="5dip"
+              android:layout_marginLeft="8dip"
+              android:layout_marginRight="5dip" /> 
+     
+     <TextView android:id="@+id/bbWeightPercentile"
+               android:layout_width="wrap_content"
+               android:gravity="right"
+               android:layout_height="wrap_content" 
+               android:layout_toRightOf="@id/bbEventDate"
+               android:textColor="@color/bbMainTextColor"
+               android:layout_alignParentRight="true"/>
+     
+     <TextView android:id="@+id/bbHeightPercentile"
+               android:layout_width="wrap_content"
+               android:gravity="right"
+               android:layout_height="wrap_content" 
+               android:layout_below="@id/bbWeightPercentile"
+               android:textColor="@color/bbMainTextColor"
+               android:layout_alignLeft="@id/bbWeightPercentile"
+               android:layout_alignParentRight="true"/>
+         
+     <TextView android:id="@+id/bbEventNote"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@id/bbEventImage"
+              android:layout_below="@id/bbHeightPercentile"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:textColor="@color/bbMainTextColor"
+              android:layout_marginTop="3dip"
+              android:layout_marginLeft="8dip"
+              android:background="@drawable/rounded_corners_semidark_text"
+              android:lines="3"
+              android:padding="7dip"/> 
+     
+</RelativeLayout>
+    
+
+   
+</LinearLayout><!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/layout/event_list_item.xml -->

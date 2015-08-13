@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Update layout -->     
+ <RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+  	android:layout_height="wrap_content"
+  	android:background="@drawable/rounded_corners_kids_semidark"
+  	android:padding="16dip"
+    android:layout_gravity="center"
+    android:layout_marginTop="0dip">
+	
+    
+	    
+	    <!-- Title -->
+	    <TextView 
+		  	android:id="@+id/bbUpdateTitle" 
+		  	android:text="@string/bbUpdateTitle" 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content"
+		  	android:layout_marginBottom="5dip"
+		  	android:layout_marginRight="15dip"
+		  	android:textAppearance="?android:attr/textAppearanceMedium">
+		 </TextView>
+		  
+		 
+		  
+		 <!-- Message -->    
+		 <TextView 
+		  	android:id="@+id/bbUpdateText"
+		  	android:autoLink="web" 
+		  	android:text="@string/bbUpdateText" 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content"
+		  	android:layout_below="@id/bbUpdateTitle"
+		  	android:layout_marginBottom="5dip"
+		  	android:textAppearance="?android:attr/textAppearanceMedium">
+		 </TextView>
+		  
+		 <Button
+		     android:id="@+id/bbCloseUpdateDialog"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_below="@id/bbUpdateText"
+		     android:layout_centerVertical="true"
+		     android:background="@drawable/button_selector"
+		     android:text="@string/bbDone"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:textColor="#ff14808b" />
+				     
+ </RelativeLayout>   

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <solid android:color="#992d8891" /> 
+    <padding android:left="20dip" android:top="20dip" 
+            android:right="20dip" android:bottom="20dip" /> 
+    <corners android:radius="10dip" /> 
+</shape> 
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/drawable/rounded_corners_dark_transparent_date.xml -->

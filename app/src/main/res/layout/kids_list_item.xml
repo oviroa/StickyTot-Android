@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="8dip"
+          android:background="@drawable/list_selector">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear">
+		
+		
+		 <ProgressBar android:indeterminate="true"
+            android:layout_width="75dip" 
+            android:layout_height="75dip"
+            android:padding="20dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginTop="2dip"
+            android:indeterminateDrawable="@drawable/loading_rotation"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/rounded_corners_noimage"/>
+		
+		<ImageView 
+		   android:scaleType="centerCrop"
+		   android:id="@+id/bbChildImage"
+           android:layout_width="75dip"
+           android:layout_height="75dip"
+           android:gravity = "center"
+           android:layout_marginLeft="2dip"
+           android:layout_marginTop="2dip" 
+           android:contentDescription="@string/child_picture"/>
+		
+		<ImageView 
+		   android:id="@+id/bbChildImageLayover"
+		   android:layout_width="79dip"
+           android:layout_height="79dip"
+           android:background="@drawable/rounded_corners_photo"	
+           android:contentDescription="@string/logo"/>
+		
+		
+	</RelativeLayout>
+	
+	
+    <LinearLayout
+		  android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="5dip">                                       
+	
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceMedium" 
+			android:id="@+id/bbChildName"
+	        android:textStyle="bold"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"/>
+		
+		 <TextView
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+			android:id="@+id/bbChildAge"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"/> 
+		
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+			android:id="@+id/bbChildGender"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"/>
+		
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+			android:id="@+id/bbChildDob"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"/>
+	        
+	</LinearLayout>         
+
+	
+	
+</LinearLayout>

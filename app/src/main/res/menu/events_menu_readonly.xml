@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/bbMilestonesEventDisplayButton"
+          android:title="@string/bbMilestonesEvent" 
+          android:icon = "@drawable/milestones"/>
+    
+    <item android:id="@+id/bbShareEventDisplayButton"
+          android:title="@string/bbShareEvent" 
+          android:icon = "@drawable/share_icon"/>
+    
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/rounded_corners_selected"  />
+    <item android:state_focused="true" android:drawable="@drawable/rounded_corners_semidark" />
+    <item android:state_selected="true" android:drawable="@drawable/rounded_corners_selected" />
+    <item android:state_enabled="false" android:drawable="@drawable/rounded_corners_translucid_text" />
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+		    <stroke android:width="1dip" android:color="#4414808b" /> 
+		    <solid android:color="#66f9c5c9" /> 
+		    <padding android:left="7dip" android:top="7dip" 
+		            android:right="7dip" android:bottom="7dip" /> 
+		    <corners android:radius="6dip" /> 
+		</shape> 
+    </item>    
+</selector>
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/drawable/rounded_corners_pink_button.xml -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="3dip" />
+            <solid android:color="#fff9c5c9"/>
+        </shape>
+        <stroke android:width="3dip" android:color="#4414808b" /> 
+    </item>
+    
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="3dip" />
+                <solid android:color="#ff14808b"/>
+            </shape>
+        </clip>
+    </item>
+    
+</layer-list>
+
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/drawable/seekbar_horizontal.xml -->

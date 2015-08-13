@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bbLogOutButton"
+          android:title="@string/bbLogOut" 
+          android:icon = "@drawable/log_out_icon"/>
+    <item android:id="@+id/bbAddChildButton"
+          android:title="@string/bbAddChild" 
+          android:icon="@drawable/plus_icon"/>
+    <item android:id="@+id/bbAddUserdButton"
+          android:title="@string/bbAddJointUser" 
+          android:icon="@drawable/joint_user"/>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="BubuMainTheme" parent="@android:style/Theme.NoTitleBar">
+    	<item name="android:windowBackground">@drawable/window_background_outer</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:textColor">@color/bbMainTextColor</item>
+    	<item name="android:panelFullBackground">@drawable/options_menu</item>
+    	<item name="android:selectableItemBackground">@drawable/window_background</item>
+    	<item name="android:spinnerStyle">@style/Widget.Spinner</item>
+    	<item name="android:buttonStyle">@style/Widget.Button</item>
+    	<item name="android:listViewStyle">@style/listView</item>
+    	<item name="android:alertDialogStyle">@style/alertDialog</item>
+    	<item name="android:gridViewStyle">@style/gridView</item>
+    	<item name="android:alertDialogTheme">@style/BubuDialogTheme</item>
+    </style>
+    
+        
+    <style name="BubuEventDisplayTheme" parent="@android:style/Theme">
+    	<item name="android:windowBackground">@drawable/window_background_outer</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:textColor">@color/bbMainTextColor</item>
+    	<item name="android:panelFullBackground">@drawable/options_menu</item>
+    	<item name="android:selectableItemBackground">@drawable/window_background</item>
+    	<item name="android:spinnerStyle">@style/Widget.Spinner</item>
+    	<item name="android:listViewStyle">@style/listView</item>
+    	<item name="android:alertDialogStyle">@style/alertDialog</item>
+    	<item name="android:gridViewStyle">@style/gridView</item>
+    </style>    
+	
+    <style name="BubuDialogTheme" parent="@android:style/Theme.Dialog"> 
+        <item name="android:listViewStyle">@style/listView</item> 
+        <item name="android:alertDialogStyle">@style/alertDialog</item>
+        <item name="android:windowBackground">@drawable/transparent_padding</item>
+    </style>    
+        
+	<style name="Widget.Button" parent="android:Widget">
+	     <item name="android:background">@drawable/button_selector</item>
+	     <item name="android:clickable">true</item>
+	     <item name="android:textColor">@color/button_text_color</item>
+	 </style>
+	 
+	<style name="Widget.Button.Blue" parent="android:Widget">
+	     <item name="android:background">@drawable/button_selector_blue</item>
+	     <item name="android:clickable">true</item>
+	     <item name="android:textColor">@color/button_text_color</item>
+	 </style>
+	 
+	<style name="Widget.ImageButton" parent="android:Widget">
+	     <item name="android:background">@drawable/menu_button_selector</item>
+	     <item name="android:clickable">true</item>
+	 </style>
+	 
+	<style name="Widget.ImageButtonBlue" parent="android:Widget">
+	     <item name="android:background">@drawable/menu_button_selector_blue</item>
+	     <item name="android:clickable">true</item>
+	 </style>
+	
+	<style name="Widget.Spinner" parent="android:Widget">
+	     <item name="android:background">@drawable/spinner_selector</item>
+	     <item name="android:clickable">true</item>
+	</style>
+	     
+    
+	<style name="listView" parent="@android:style/Widget.ListView.White">
+ 		<item name="android:background">@drawable/rounded_corners_kids_semidark</item>
+ 		<item name="android:listSelector">@drawable/list_selector</item>
+ 		<item name="android:divider">@drawable/divider_color</item>
+ 		<item name="android:dividerHeight">@dimen/bbDividerHeight</item> 		
+ 	</style>  
+ 	
+ 	<style name="gridView" parent="@android:style/Widget.GridView">
+ 		<item name="android:background">@drawable/rounded_corners_kids</item>
+ 		<item name="android:listSelector">@drawable/list_selector</item>
+ 	</style>  
+	
+	<style name="alertDialog">
+	   <item name="android:fullBright">@drawable/transparent_padding</item>	  
+	</style>    
+	
+</resources>

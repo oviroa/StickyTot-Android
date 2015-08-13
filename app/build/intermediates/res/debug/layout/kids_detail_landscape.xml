@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">	
+	
+	<!-- header -->
+	<RelativeLayout
+   		android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:padding = "10dip">
+    	
+	    <ImageButton
+		    	android:id="@+id/homeButtonChildDetails"
+		    	android:src="@drawable/logo_small_proxy"
+		    	android:background="#00ffffff"
+		    	android:clickable="true"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginLeft="13dip" 
+		       	android:layout_width="wrap_content"
+		       	android:contentDescription="@string/logo"/>
+		    
+		    <ImageView
+		  		    android:layout_width="wrap_content"
+		  		    android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="-7dip"
+					android:layout_marginTop="32dip"
+		  		    android:src="@drawable/toggle_left" 
+		  		    android:layout_marginBottom="5dip"
+		  		    android:contentDescription="@string/menu"/>
+	    
+	    
+	    <Button 
+			android:text="@string/bbSave" 
+			android:id="@+id/bbSaveChildData" 
+			android:layout_width="wrap_content" 
+	  		android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+	    	android:gravity="left|center_vertical"
+	    	android:drawableLeft="@drawable/plus_icon"
+	    	android:drawablePadding="15dip"
+	    	android:paddingTop="10dip"
+	    	android:paddingBottom="10dip"
+	    	android:paddingLeft="45dip"
+	    	android:paddingRight="45dip"
+	    	android:layout_alignParentRight="true"
+	    	android:layout_alignBottom="@id/homeButtonChildDetails">
+		</Button>
+		
+	    <TextView 
+	       	android:textAppearance="?android:attr/textAppearanceLarge" 
+	       	android:id="@+id/textViewChildDetails" 
+	       	android:layout_height="wrap_content" 
+	       	android:gravity="bottom|right"
+	       	android:layout_toLeftOf="@id/bbSaveChildData"
+	       	android:layout_alignBottom="@id/homeButtonChildDetails"
+	       	android:layout_width="wrap_content" 
+	       	android:paddingLeft="10dip">
+	    </TextView>
+	        
+	</RelativeLayout>
+	
+	<ScrollView
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dip" 
+    	android:layout_weight="1"
+		android:background="@drawable/rounded_corners_kids"
+    	android:layout_marginBottom="10dip"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip">
+		
+		<RelativeLayout
+		  android:orientation="vertical"
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:padding="10dip">
+		                                             
+		  
+		  <!-- image and border -->
+		  <RelativeLayout
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/bbChildImageLayout"
+	        android:layout_marginRight="10dip">
+		
+		 	
+		 	 <ImageView 
+		 	 	android:id="@+id/bbChildImage"
+			    android:src="@drawable/noimage" 
+			    android:layout_width="100dip"
+		        android:layout_height="100dip"
+				android:gravity = "center"
+                android:layout_centerInParent="true"
+                android:scaleType="center"
+                android:background="@drawable/rounded_corners_noimage"
+                android:contentDescription="@string/logo"/>
+			
+				<ImageView 
+				   android:layout_width="103dip"
+		           android:layout_height="103dip"
+		           android:background="@drawable/rounded_corners_photo"	
+		           android:contentDescription="@string/child_picture"/>
+				
+			</RelativeLayout>
+		  
+		  <!-- rotation button -->
+		  <ImageButton
+	    	android:id="@+id/bbRotateChildButton" 
+	    	android:src="@drawable/rotate_icon"
+	    	android:background="@drawable/button_selector"
+	    	android:clickable="true"
+	    	android:layout_height="wrap_content" 
+	       	android:layout_width="wrap_content"
+	       	android:layout_below="@id/bbChildImageLayout"
+	       	android:layout_alignLeft="@id/bbChildImageLayout"
+	       	android:layout_alignRight="@id/bbChildImageLayout"
+	       	android:layout_marginTop="5dip"
+	       	android:visibility="invisible"
+	       	android:contentDescription="@string/rotate"/>
+		   
+	      
+	      <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/bbFields"
+	        android:layout_toRightOf="@id/bbChildImageLayout"
+	        android:weightSum="2"
+	        android:layout_marginBottom="5dip"
+	        android:baselineAligned="false">
+	          
+	        
+	        <RelativeLayout
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="1">
+	            
+	          <!-- name -->  
+			  <TextView 
+			  	android:text="@string/bbChildName"
+			  	android:id="@+id/bbChildName" 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content"
+			  	android:gravity="right"
+			  	android:focusableInTouchMode="true">
+			  </TextView>
+			  
+			  <EditText 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content" 
+			  	android:id="@+id/bbChildNameField" 
+			  	android:inputType="textPersonName"
+			  	android:background="@drawable/rounded_corners_white"
+			  	android:textColor="#ff14808b"
+			  	android:layout_below="@id/bbChildName"
+			  	android:layout_marginBottom="5dip"
+			  	android:imeOptions="actionDone"
+			  	android:textAppearance="?android:attr/textAppearanceMedium">
+			  </EditText> 
+	            
+	        </RelativeLayout>
+	         
+			
+	         <RelativeLayout
+	            android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="1">
+			  
+			  <!-- gender -->
+			  <TextView 
+			  	android:text="@string/bbChildGender" 
+			  	android:id="@+id/bbChildGender" 
+			  	android:prompt="@string/bbChildSelectGender"
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content"
+			  	android:gravity="right">
+			  </TextView>
+		  
+			  <Spinner 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content" 
+			  	android:id="@+id/bbChildGenderField"
+			  	android:drawSelectorOnTop="true"
+			  	android:layout_below="@id/bbChildGender"
+			  	android:layout_marginBottom="5dip"
+			  	android:textAppearance="?android:attr/textAppearanceMedium">
+			  </Spinner>    
+			  
+	         </RelativeLayout>    
+	          
+	      </LinearLayout>
+	      
+	      
+	      <TextView 
+		  	android:text="@string/bbChildDOB"
+		  	android:id="@+id/bbChildDOB" 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content"
+		  	android:layout_below="@id/bbFields"
+		  	android:layout_toRightOf="@id/bbChildImageLayout"
+		  	android:layout_marginRight="10dip">
+		  </TextView>
+		  
+		  <DatePicker 
+		  	  android:id="@+id/bbChildDOBField" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"
+			  android:layout_toRightOf="@id/bbChildDOB"
+			  android:layout_below="@id/bbFields">
+		  </DatePicker>
+		  	
+			
+		</RelativeLayout>
+		
+	</ScrollView>
+	
+	
+</LinearLayout>	<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/layout/kids_detail_landscape.xml -->

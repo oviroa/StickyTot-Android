@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+		<shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+    		<solid android:color="#00f9c5c9" /> 
+    		<corners android:radius="3dip" /> 
+		</shape> 
+	</item>
+	<item>
+      <bitmap android:src="@drawable/noimage_background" 
+        android:gravity="center" />
+    </item>
+</layer-list>     
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/drawable/rounded_corners_noimage_transparent.xml -->

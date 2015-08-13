@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corners_kids_semidark"
+    android:padding="16dip"
+    android:layout_weight="90"
+    android:gravity="center|center_vertical"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip">
+
+    <TextView 
+        android:id="@+id/bbProgressBarTitleComplex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_vertical"
+        android:paddingBottom="3dip"
+        android:paddingTop="3dip"/>
+    
+    <ProgressBar 
+        	android:id = "@+id/bbProgressBarComplex"  
+        	android:layout_width="match_parent" 
+        	android:layout_height="wrap_content"
+        	style="@android:style/Widget.ProgressBar.Horizontal"
+        	android:visibility="gone"> 
+    </ProgressBar>
+</LinearLayout>

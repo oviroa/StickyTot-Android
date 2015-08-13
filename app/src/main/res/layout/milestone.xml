@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:droidfu="http://github.com/droidfu/schema"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/milestoneLayout">
+	
+    <ProgressBar android:indeterminate="true" 
+	            android:layout_width="55dip" 
+	            android:layout_height="55dip"
+	            android:padding="10dip"
+	            android:layout_marginLeft="2dip"
+	            android:layout_marginTop="2dip"
+	            android:indeterminateDrawable="@drawable/loading_rotation"
+	            android:layout_gravity="center_vertical|center_horizontal"
+	            android:background="@drawable/rounded_corners_noimage"/>
+    
+	<ImageView 
+		   android:id="@+id/bbMilestoneImage"
+           android:layout_width="54dip"
+           android:layout_height="54dip"
+           android:gravity = "center"
+           android:layout_marginLeft="2dip"
+           android:scaleType="centerCrop"
+           android:layout_marginTop="2dip"
+           android:contentDescription="@string/event_picture"/>                                             
+     
+     <ImageButton
+		   android:layout_width="58dip"
+           android:layout_height="58dip"
+           android:background="@drawable/rounded_corners_photo_selector" 
+           android:id="@+id/bbMilestoneButton"
+           android:contentDescription="@string/event_picture"/>
+     
+     
+     <TextView android:id="@+id/bbMilestoneDate"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:layout_alignTop="@id/bbMilestoneImage"
+              android:background="@drawable/rounded_corners_dark_transparent"
+              android:layout_marginLeft="6dip"
+              android:layout_marginTop="5dip"
+              android:textColor="#ffffffff"/>
+
+</RelativeLayout>     

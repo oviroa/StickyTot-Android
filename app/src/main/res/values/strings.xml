@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bbWelcome">welcome!</string>
+    <string name="bbPrivacy">privacy</string>
+    <string name="bbLogInWithGoogle">log in with your google account</string>
+    <string name="bbLogInForSharing">you must be logged in to share pictures. please start the application and log in.</string>
+    <string name="bbAddChildForSharing">you must register a child in order to add an event/picture. please start the application and register a child.</string>
+    <string name="bbMakeSelection">select</string>
+    <string name="bbShareLinkTo">share event link to &#8230;</string>
+    <string name="bbLogIn">log in</string>
+    <string name="bbLogOut">log out</string>
+    <string name="app_name">StickyTot</string>
+    <string name="bbKids">kids</string>
+    <string name="bbMilestonesError">milestones_error</string>
+    <string name="bbEvents">events</string>
+    <string name="bbMilestones">milestones</string>
+    <string name="bbOopsy">oopsy!</string>
+    <string name="bbFor">for</string>
+    <string name="bbChildNew">new child</string>
+    <string name="bbChildEdit">edit child info</string>
+    <string name="bbEventNew">new event</string>
+    <string name="bbEventEdit">edit event info</string>
+    <string name="bbJointUserEmailLabel">enter user\'s email</string>
+    <string name="bbJointUserEmailText">the user will be notified of your request and will need to approve it before he/she can view your entries.</string>
+    <string name="bbJointUserEmailLead">you can share all your entries and updates with a user of your choice. he/she will be able to see your entries without having the ability to edit them.</string>
+    <string name="bbJointUserEmailLabelPending">invited user\'s email</string>
+    <string name="bbJointUserEmailTextPending">the user was notified of your request and will need to approve it before he/she can view your entries.</string>
+    <string name="bbJointUserEmailTextApproved">the joint user will be able to see your entries without having the ability to edit them.</string>
+    <string name="bbJointUserEmailLeadPending">an invitation was sent</string>
+    <string name="bbJointUserEmailLabelApproved">the joint user invitation was approved</string>
+    <string name="bbReceivedInvitesText">you are invited to be a joint user by:</string>
+    <string name="bbReceivedInvitesTextApprove">approve</string>
+    <string name="bbReceivedInvitesTextReject">reject</string>
+    <string name="bbInviteRejectedText">your joint user invitation was rejected</string>
+    <string name="bbInviteRemovedText">you are no longer a joint user</string>
+    <string name="bbInviteReceivedText">you received a joint user invitation</string>
+    <string name="bbInviteApprovedText">your joint user invitation was approved</string>
+    <string name="bbChooseAccount">choose the account you want to use</string>
+    <string name="bbGeneralErrorMessage">there was an error</string>
+    <string name="bbHeight">ht.</string>
+    <string name="bbWeight">wt.</string>
+    <string name="bbBack">back</string>
+    <string name="bbNA">n/a</string>
+    <string name="bbYes">yes</string>
+    <string name="bbNo">no</string>
+    <string name="bbAreYouSure">are you sure?</string>
+    <string name="bbErrorInstructions">hit \"back\" and try again or \"log out\" and log back in</string>
+    <string name="bbUpdateTitle">thank you for downloading version 1.4.1!</string>
+    <string name="bbUpdateText">visit stickytot.com/new-features.jsp for details about the new features.</string>
+    <string name="bbSpeakMessage">speak to enter note</string>
+    <string name="bbGeneralAuthenticationErrorMessage">could not complete authentication. your session may have expired. please log out and log back in again</string>
+    <string name="bbNoDataEvents">you have registered no events</string>
+    <string name="bbNoDataChildren">you have no registered children</string>
+    <string name="bbInvalidInvite">the user you invited cannot accept your invitation</string>
+    <string name="bbAddChild">add child</string>
+    <string name="bbAddJointUser">joint user</string>
+    <string name="bbJointUserInvited">joint user was invited</string>
+    <string name="bbRemoveJointUser">remove joint user</string>
+    <string name="bbJointUserRemoved">joint user was removed</string>
+    <string name="bbJointUserInviteApproved">joint user invite was approved</string>
+    <string name="bbJointUserInviteRejected">joint user invite was rejected</string>
+    <string name="bbJointUser">joint user</string>
+    <string name="bbEditChild">edit child</string>
+    <string name="bbDeleteChild">delete child</string>
+    <string name="bbRefresh">refresh</string>
+    <string name="bbRefreshText">fresher info is available</string>
+    <string name="bbNotificationHomeText">click to see your joint user status</string>
+    <string name="bbAddEvent">add event</string>
+    <string name="bbEditEvent">edit event</string>
+    <string name="bbMilestonesEvent">milestones</string>
+    <string name="bbShareEvent">share event</string>
+    <string name="bbDeleteEvent">delete event</string>
+    <string name="bbChildName">child name</string>
+    <string name="bbChildThumbUrl">child thumb url</string>
+    <string name="bbChildDOB">date of birth</string>
+    <string name="bbChildGender">gender</string>
+    <string name="bbChildAge">age</string>
+    <string name="bbChildAgeStr">age-str</string>
+    <string name="bbChildBrandNew">brand new</string>
+    <string name="bbChildWeeks">w</string>
+    <string name="bbChildMonths">m</string>
+    <string name="bbChildYears">y</string>
+    <string name="bbChildSelectGender">select gender</string>
+
+    <string-array name="bbGenderArray">
+        <item>girl</item>
+        <item>boy</item>
+    </string-array>
+
+    <string-array name="milestones_array">
+        <item>2 Months</item>
+        <item>4 Months</item>
+        <item>6 Months</item>
+        <item>9 Months</item>
+        <item>1 Year</item>
+        <item>18 Months</item>
+        <item>2 Years</item>
+        <item>3 Years</item>
+        <item>4 Years</item>
+        <item>5 Years</item>
+    </string-array>
+   
+
+    
+    <string name="bbEventNote">note</string>
+    <string name="bbEventDate">date</string>
+    <string name="bbEventHeight">height</string>
+    <string name="bbEventWeight">weight</string>
+    <string name="bbEventHeightIm">height(in)</string>
+    <string name="bbEventWeightIm">weight(lb)</string>
+    <string name="bbHeightPercentile">height %</string>
+    <string name="bbWeightPercentile">weight %</string>
+    <string name="bbDefaultImageURL">https://www.stickytot.com/images/default.png</string>
+
+<!--     <string name="bbDefaultImageURL">https://bubu-staging.appspot.com/images/default.png</string> -->
+
+    <string name="bbSave">save</string>
+    <string name="bbChooseSource">choose source</string>
+
+    <string-array name="bbSourceArray">
+        <item>camera</item>
+        <item>gallery</item>
+    </string-array>
+
+    
+    <string name="bbSelectAChild">tap on a child to create an event with the chosen picture</string>
+    <string name="bbImageProblem">the image you selected could not be processed. try again with an image stored on your device</string>
+    <string name="bbChooseSourceCamera">camera</string>
+    <string name="bbChooseSourceGallery">camera</string>
+    <string name="bbDatePastLimit">you cannot use a date from the future</string>
+    <string name="bbDateBeforeLimit">you cannot use dates from before the child\'s birth</string>
+    <string name="bbProblem">there was a problem. try again!</string>
+    <string name="bbOK">ok</string>
+    <string name="bbInvalid">invalid</string>
+    <string name="bbRedundant">redundant</string>
+    <string name="bbInviteInvalid">the user you invited cannot accept your invitation</string>
+    <string name="bbInviteRedundant">you already invited a user to join</string>
+    <string name="bbUploadingPicture">uploading picture&#8230;</string>
+    <string name="bbUploadingEventData">uploading event data&#8230;</string>
+    <string name="bbUploadingChildData">uploading child data&#8230;</string>
+    <string name="bbLoading">processing. please wait&#8230;</string>
+    <string name="bbImageProcessing">processing image&#8230;</string>
+    <string name="bbConnecting">processing &#8230;</string>
+    <string name="bbInvalidHeight">entered height is invalid</string>
+    <string name="bbInvalidWeight">entered weight is invalid</string>
+    <string name="bbChooseOption">choose an option</string>
+    <string name="bbInvalidName">name is invalid / </string>
+    <string name="bbDuplicate">duplicate /</string>
+    <string name="bbInvalidGender">gender is invalid / </string>
+    <string name="bbInvalidDate">date is invalid /</string>
+    <string name="bbFutureDate">date is in the future / </string>
+    <string name="bbInvalidNote">note is invalid / </string>
+    <string name="bbDateBeforeBirth">date is before birth date / </string>
+    <string name="bbInvalidEmail">email is invalid / </string>
+    <string name="bbInvalidEmailShort">email is invalid</string>
+    <string name="bbInvalidEmailYours">you just entered your own email, try again</string>
+    <string name="bbErrorNoData">no data</string>
+    <string name="bbErrorNoConnection">no internet connection, try again</string>
+    <string name="bbDone">done</string>
+
+    <!-- Crash messages -->
+    <!-- 
+    <string name="crash_toast_text">Ooooopsy! I am throwing a tantrum right now, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="crash_notif_ticker_text">Unexpected error, please send a report&#8230;</string>
+    <string name="crash_notif_title">StickyTot lost its pacifier and threw a fit&#8230;</string>
+    <string name="crash_notif_text">Please click here to help fix the problem.</string>
+    <string name="crash_dialog_title">StickyTot lost its pacifier and threw a fit&#8230;</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help us fix this by sending us error data, all you have to do is click \'OK\'.</string>
+    <string name="crash_dialog_comment_prompt">Tell us what happened?:</string>
+    <string name="crash_dialog_ok_toast">Thank you!</string>
+    -->
+    
+    <!-- GA -->
+    <string name="bbGA">UA-27960833-1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_milestones">MilestonesActivity</string>
+
+    <!-- Content description -->
+    <string name="toggle_left">toggle left</string>
+    <string name="toggle_right">toggle right</string>
+    <string name="logo">StickyTot</string>
+    <string name="hand">hand</string>
+    <string name="event_picture">event picture</string>
+    <string name="child_picture">child picture</string>
+    <string name="zero">0</string>
+    <string name="rotate">rotate</string>
+    <string name="speak">speak</string>
+    <string name="menu">menu</string>
+    <string name="notification">notification</string>
+</resources>

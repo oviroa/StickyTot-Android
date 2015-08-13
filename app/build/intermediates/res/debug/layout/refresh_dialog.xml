@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dimensions layout -->     
+ <RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+  	android:layout_height="wrap_content"
+  	android:background="@drawable/rounded_corners_kids"
+  	android:padding="16dip"
+    android:layout_gravity="center"
+    android:layout_marginTop="0dip">
+	
+    	<TextView
+    	    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/bbTextRefreshDialog"
+		    android:text="@string/bbRefreshText" 
+		    android:layout_marginBottom="5dip"/>
+    	
+	    <Button
+		     android:id="@+id/bbCloseRefreshDialog"
+		     android:layout_width="wrap_content"
+		     android:layout_centerHorizontal="true"
+		     android:layout_height="wrap_content"
+		     android:layout_centerVertical="true"
+		     android:background="@drawable/button_selector"
+		     android:text="@string/bbRefresh"
+		     android:textAppearance="?android:attr/textAppearanceMedium"
+		     android:textColor="#ff14808b" 
+		     android:layout_below="@id/bbTextRefreshDialog"
+		     android:drawableLeft="@drawable/sync_icon"
+		     android:drawablePadding="5dip"/>
+				     
+ </RelativeLayout>   <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/layout/refresh_dialog.xml -->

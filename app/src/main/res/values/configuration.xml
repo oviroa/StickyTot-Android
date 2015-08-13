@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <string name="bbDomain">www.stickytot.com</string>
+    
+    <!--
+    <string name="bbDomain">bubu-staging.appspot.com</string>
+    -->
+    
+    <string name="bbPrivacyUrl">https://www.stickytot.com/privacy.jsp?source=android</string>
+    <string-array name="bbImageTypes">
+        <item>image/jpeg</item>
+        <item>image/png</item>
+		<item>image/gif</item>
+		<item>application/octet-stream</item>
+    </string-array>
+    <integer name="bbImageThumbSize">200</integer>
+    <integer name="bbImageMainSize">512</integer>
+    <string name="bbProtocol">https://</string>
+    <string name="bbDefaultImage">/images/default.png</string>
+    
+    <string name="bbAdminEmail">oviroa@gmail.com</string>
+    <string name="bbAccountType">com.google</string>
+    <string name="bbAccountLabel">account</string>
+    <string name="bbParent">parent</string>
+    <string name="bbEvent">event</string>
+    <string name="bbChild">child</string>
+    <string name="bbInvite">invite</string>
+    
+    
+    <string name="bbCD2MRegistrationPackage">com.google.android.c2dm.intent.REGISTER</string>
+    <string name="bbCD2MUnregistrationPackage">com.google.android.c2dm.intent.UNREGISTER</string>
+    <string name="bbCD2MApp">app</string>
+    <string name="bbCD2MSender">sender</string>
+    
+    <!-- labels for local storage -->
+    <string name="bbTokenReserveLabel">TOKEN_RESERVE</string>
+    <string name="bbTokenLabel">TOKEN</string> 
+    <string name="bbChosenAccount">bbChosenAccount</string> 
+    <string name="bbAccountToken">bbAccountToken</string>
+    <string name="bbLastLoginDate">bbLastLoginDate</string>
+    <string name="bbEventFootprint">bbEventFootprint</string>
+    <string name="bbBubuPrefsLabel">BUBU_PREFS</string>
+    <string name="bbParentLabel">PARENT</string>
+    <string name="bbKidsLabel">KIDS</string>
+    <string name="bbEventsLabel">EVENTS</string>
+    <string name="bbHintShown">bbHintShown</string>
+    <string name="bbUpdateTextShown">bbUpdateTextShown</string>
+    <string name="bbUpdateVersion">bbUpdateVersion</string>
+    <string name="bbHomeNotificationShown">bbHomeNotificationShown</string>
+    
+    <string name="bbGoogleAcctType">com.google</string>
+    
+    <!-- labels for extras -->
+    <string name="bbDob">dob</string>
+    <string name="bbParentKey">parentKey</string>
+    <string name="bbChildKey">childKey</string>
+    <string name="bbEventKey">eventKey</string>
+    <string name="bbReset">reset</string>
+    <string name="bbKey">key</string>
+    <string name="bbNewestMeasurement">newestMeasurement</string>
+    <string name="bbErrorMessage">errorMessage</string>
+    <string name="bbEventData">event_data</string>
+    <string name="bbChildData">child_data</string>
+    
+    
+    <!-- events -->
+     <string name="bbUpdateEvent">update_event</string>
+     <string name="bbUpdateEventUpdated">updated</string>
+     <string name="bbUpdateEventAction">action</string>
+     
+      <integer name="bbExceptionTypeRecoverable">0</integer>
+      <integer name="bbExceptionTypeNonRecoverable">1</integer>
+      
+      <integer name="bbExceptionTypeValidation">2</integer>
+      
+      <integer name="bbEventsPerPage">2</integer>
+      <integer name="bbEventsPerInterval">10</integer>
+      
+      <integer name="bbTimeOutMS">35000</integer>
+      
+      <integer name="bbDaysForExpiration">16</integer>
+       
+           
+     <dimen name="bbDialogWidth">290dip</dimen>   
+    
+     <dimen name="bbDividerHeight">1px</dimen>
+      	
+    
+      <color name="bbMainTextColor">#ff14808b</color>
+      <color name="bbMainTextColorDisabled">#bbf9c5c9</color>
+      
+      <string name="bbEventLinkPrefix">https://www.stickytot.com/event.jsp?id=</string>
+      
+      
+      <!-- dimensions for note text area  -->
+      <integer name="bbEventNoteLines">5</integer>
+      <integer name="bbEventNoteLinesTabletLandscape">10</integer>
+      <integer name="bbEventNoteLinesTabletPortrait">20</integer>
+      
+    
+      <!-- CD2M -->
+      <string name="bbInviteRemovalMessage">0</string>
+      <string name="bbInviteRejectionMessage">1</string>
+      <string name="bbInviteReceivedMessage">2</string>
+      <string name="bbInviteApprovedMessage">3</string>
+      <string name="bbCD2MChildMessage">0</string>
+      <string name="bbCD2MEventMessage">1</string>
+      <string name="bbCD2MInviteMessage">3</string>
+      
+      <integer name="bbCurrentVersion">30</integer>
+               
+</resources>

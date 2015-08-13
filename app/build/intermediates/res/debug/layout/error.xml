@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  		<!-- header -->
+		<LinearLayout
+	   		android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:padding = "10dip"
+	    	android:layout_marginBottom="10dip">
+	    	
+		    <ImageButton
+		    	android:id="@+id/homeButtonError"
+		    	android:src="@drawable/logo_small_proxy"
+		    	android:background="#00ffffff"
+		    	android:clickable="true"
+		    	android:layout_height="wrap_content" 
+		       	android:layout_width="wrap_content"
+		       	android:contentDescription="@string/logo"/>
+		    
+		    <TextView 
+		       	android:textAppearance="?android:attr/textAppearanceLarge" 
+		       	android:id="@+id/textViewErrorTitle" 
+		       	android:text="@string/bbOopsy"
+		       	android:layout_height="match_parent" 
+		       	android:gravity="bottom|right"
+		       	android:layout_width="match_parent" 
+		       	android:paddingLeft="10dip">
+		       	
+		    </TextView>
+		</LinearLayout>  
+    
+		    
+        <TextView 
+	    	android:textAppearance="?android:attr/textAppearanceMedium" 
+	    	android:id="@+id/bbErrorMessage" 
+	    	android:text="@string/bbGeneralErrorMessage" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_gravity="center" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_marginBottom="20sp"
+	    	android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip">
+	    </TextView>
+	    
+	    <TextView 
+	    	android:textAppearance="?android:attr/textAppearanceMedium" 
+	    	android:id="@+id/bbErrorMessageDetail" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_gravity="center" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_marginBottom="20sp"
+	    	android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip">
+	    </TextView>
+	    
+	    
+	   <Button
+	       android:layout_width="match_parent" 
+	       android:layout_height="wrap_content"
+	       android:id="@+id/bbErrorBackButton"
+	       android:text="@string/bbBack"
+	       android:gravity="center" 
+	       android:layout_marginBottom="10dip"
+	       android:layout_marginLeft="10dip"
+	       android:layout_marginRight="10dip"
+	       android:padding="10dip"/>
+	   
+	    <TextView 
+	    	android:textAppearance="?android:attr/textAppearanceSmall" 
+	    	android:id="@+id/bbErrorMessageInstructions" 
+	    	android:text="@string/bbErrorInstructions"
+	    	android:layout_height="wrap_content" 
+	    	android:layout_gravity="center" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+	    	android:layout_marginBottom="20sp">
+	    </TextView>
+	   
+	   <Button
+	       android:layout_width="match_parent" 
+	       android:layout_height="wrap_content"
+	       android:id = "@+id/bbErrorLogOutButton" 
+	       android:text="@string/bbLogOut"
+	       android:layout_marginLeft="10dip"
+	       android:layout_marginRight="10dip"
+	       android:gravity="center" 
+	       android:padding="10dip"/>
+   
+    
+</LinearLayout>
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/layout/error.xml -->

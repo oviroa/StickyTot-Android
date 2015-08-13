@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_corners_kids_semidark"
+    android:padding="20dip"
+    android:layout_gravity="center">
+
+    <ProgressBar 
+        	android:id="@+id/bbPrettyProgressBar"
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:indeterminateDrawable="@drawable/loading_rotation"
+        	android:layout_marginRight="20dip"> 
+    </ProgressBar>
+        
+    <TextView 
+        android:id="@+id/bbProgressBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+</LinearLayout><!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/layout/dialog_simple.xml -->

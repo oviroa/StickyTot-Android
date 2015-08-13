@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:droidfu="http://github.com/droidfu/schema"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_semidark"
+    android:id="@+id/bbEventDisplayRoot">
+
+    
+    <com.garagewarez.bubu.android.base.EventImageView 
+         	   android:id="@+id/bbEventDisplayImage"
+	           android:layout_width="match_parent" 
+	           android:layout_height="match_parent">
+	     
+         
+         	  <ProgressBar android:indeterminate="true"
+	            android:layout_width="30dip" 
+	            android:layout_height="30dip"
+	            android:indeterminateDrawable="@drawable/loading_rotation"
+	            android:layout_centerInParent="true"/>
+         
+         		<ImageView 
+         		    android:layout_width="match_parent"
+		       		android:layout_height="match_parent"
+	           		android:gravity = "center"
+	           		android:layout_gravity="center"
+	           		android:contentDescription="@string/logo"/>
+         
+	 </com.garagewarez.bubu.android.base.EventImageView>          
+	 
+    
+    <!-- header -->
+	<RelativeLayout
+	  	android:layout_width="match_parent" 
+	   	android:layout_height="wrap_content"
+	   	android:paddingTop = "10dip"
+	   	android:paddingRight = "10dip"
+	   	android:paddingLeft = "10dip"
+	   	android:paddingBottom = "5dip"
+	    android:id="@+id/bbEventDisplayHeader"
+	    android:background="@drawable/window_background_pinkish">
+	    	   	
+	    <ImageButton
+		    	android:id="@+id/homeButtonEventDisplay"
+		    	android:src="@drawable/logo_small_proxy"
+		    	android:background="#00ffffff"
+		    	android:clickable="true"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginLeft="13dip" 
+		       	android:layout_width="wrap_content"
+		       	android:contentDescription="@string/logo"/>
+		    
+		    <ImageView
+		  		    android:layout_width="wrap_content"
+		  		    android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="-7dip"
+					android:layout_marginTop="32dip"
+		  		    android:src="@drawable/toggle_left" 
+		  		    android:layout_marginBottom="5dip"
+		  		    android:contentDescription="@string/toggle_left"/>
+	    
+	    
+	   <TextView 
+	       	android:textAppearance="?android:attr/textAppearanceLarge" 
+	       	android:id="@+id/textViewEventDisplay" 
+	       	android:layout_height="wrap_content" 
+	       	android:gravity="bottom|right"
+	       	android:layout_width="wrap_content" 
+	       	android:paddingLeft="10dip"
+	       	android:layout_alignParentRight="true"
+	       	android:layout_alignBottom="@id/homeButtonEventDisplay"
+	       	android:textIsSelectable="false"/>
+	    
+	       	
+	    <TextView 
+	        android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"
+    		android:gravity="right"
+    		android:id="@+id/subTitleEventDisplay"
+    		android:textAppearance="?android:attr/textAppearanceSmall" 
+    		android:layout_below="@id/textViewEventDisplay"
+    		android:layout_alignRight="@id/textViewEventDisplay"
+    		android:textIsSelectable="false"/>
+
+	    <ImageButton
+	        android:id="@+id/bbMenuEventDisplay"
+	        android:src="@drawable/ic_menu_moreoverflow_normal_holo_light"	 
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/textViewEventDisplay"
+	       	android:layout_width="wrap_content"
+	       	style="@style/Widget.ImageButtonBlue"
+	       	android:layout_alignBottom="@id/homeButtonEventDisplay"
+	       	android:contentDescription="@string/menu"/>
+
+
+	</RelativeLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+    	android:layout_below="@id/bbEventDisplayHeader"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginBottom="5dip"
+    	android:id="@+id/bbHideTitleButtonContainer"
+    	android:paddingTop="40dip"
+    	android:paddingLeft="40dip"
+    	android:paddingBottom="40dip"
+    	android:layout_marginTop="-40dip">
+	    
+	    <ImageButton	
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:id="@+id/bbHideTitleButton"
+	        android:src="@drawable/toggle_left"
+    		android:background="@drawable/button_selector_left"
+    		android:contentDescription="@string/logo"/>
+	    
+	</LinearLayout>    
+	    
+	
+	    
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+    	android:layout_below="@id/bbEventDisplayHeader"
+    	android:layout_alignParentLeft="true"
+    	android:layout_marginBottom="5dip"
+    	android:id="@+id/bbShowTitleButtonContainer"
+    	android:paddingTop="40dip"
+    	android:paddingRight="40dip"
+    	android:paddingBottom="40dip"
+    	android:layout_marginTop="-40dip"
+    	android:visibility="invisible">    
+	    
+	     <ImageButton	
+	        android:id="@+id/bbShowTitleButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    		android:src="@drawable/toggle_right"
+    		android:background="@drawable/button_selector_right"
+    		android:contentDescription="@string/logo"/>
+   
+	 </LinearLayout>    
+	     
+	<RelativeLayout
+	    android:id="@+id/bbEventDisplayFooter"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:background="@drawable/window_background_pinkish"
+	    android:padding ="10dip">
+	      
+	    <TextView
+    	    android:id="@+id/bbEventDisplayNoteLabel"
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentRight="true"
+	    	android:text = "@string/bbEventNote"
+	    	android:paddingTop="5dip"
+	    	android:paddingBottom="2dip"/>
+	    
+    	<TextView
+	        android:id="@+id/bbEventDisplayNote"
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:layout_below="@id/bbEventDisplayNoteLabel"
+			android:lines="3"
+			android:scrollbars="vertical"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/bbMainTextColor"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/rounded_corners_translucid_text"
+            android:padding="7dip"
+            android:layout_marginBottom="5dip"
+            android:textIsSelectable="true"/>
+    	
+    	<TextView
+    	    android:id="@+id/bbEventDisplayWeight"
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_below="@id/bbEventDisplayNote"
+	    	android:layout_alignLeft="@id/bbEventDisplayNote"
+	    	android:paddingTop="5dip"
+	    	android:paddingBottom="5dip"
+	    	android:paddingRight = "8dip"
+	    	android:text=""/>
+	    	
+	    <TextView
+    	    android:id="@+id/bbEventDisplayHeight"
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"
+			android:layout_below="@id/bbEventDisplayNote"
+			android:layout_toRightOf="@id/bbEventDisplayWeight"
+			android:paddingTop="5dip"
+	    	android:paddingBottom="5dip"
+	    	android:paddingRight = "4dip"
+	    	android:text=""/>
+	    
+	    <TextView
+    	    android:id="@+id/bbEventDisplayHeightPercentile"
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"
+			android:layout_below="@id/bbEventDisplayNote"
+			android:paddingTop="5dip"
+	    	android:paddingBottom="5dip"
+	    	android:paddingLeft = "8dip"
+	    	android:layout_alignParentRight="true"
+	    	android:text=""/>
+	    
+	    <TextView
+    	    android:id="@+id/bbEventDisplayWeightPercentile"
+    	    android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_below="@id/bbEventDisplayNote"
+	    	android:layout_toRightOf="@id/bbEventDisplayHeight"
+	    	android:paddingTop="5dip"
+	    	android:paddingBottom="5dip"
+	    	android:paddingLeft = "4dip"
+	    	android:layout_toLeftOf="@id/bbEventDisplayHeightPercentile"
+	    	android:gravity="right"
+	    	android:text=""/>
+	    
+	    <Button
+	        android:id="@+id/display_milestones_button"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/bbMilestones" 
+			style="@style/Widget.Button.Blue" 
+			android:layout_below="@id/bbEventDisplayHeightPercentile"
+			android:drawableLeft = "@drawable/milestones"
+			android:drawablePadding="15dip"
+			android:layout_centerHorizontal="true"
+			android:alpha=".75"/>
+    	
+	</RelativeLayout>    
+	
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	    	android:layout_above="@id/bbEventDisplayFooter"
+	    	android:layout_alignParentLeft="true"
+	    	android:id="@+id/bbHideFooterButtonContainer"
+	    	android:paddingTop="40dip"
+	    	android:paddingRight="40dip"
+	    	android:paddingBottom="40dip"
+	    	android:layout_marginBottom="-40dip">    
+		    
+		     <ImageButton	
+		        android:id="@+id/bbHideFooterButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+	    		android:src="@drawable/toggle_down"
+	    		android:background="@drawable/button_selector_right"
+	    		android:contentDescription="@string/logo"/>
+	   
+		 </LinearLayout>
+		
+	     
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	    	android:layout_alignParentLeft="true"
+	    	android:id="@+id/bbShowFooterButtonContainer"
+	    	android:layout_alignParentBottom="true"
+	    	android:paddingTop="40dip"
+	    	android:paddingRight="40dip"
+	    	android:paddingBottom="40dip"
+	    	android:layout_marginBottom="-40dip"
+	    	android:visibility="invisible">    
+		    
+		     <ImageButton	
+		        android:id="@+id/bbShowFooterButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+	    		android:src="@drawable/toggle_up"
+	    		android:background="@drawable/button_selector_right"
+	    		android:contentDescription="@string/logo"/>
+	   
+		 </LinearLayout>
+		  	     
+	    	    
+</RelativeLayout><!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/layout/event_display_landscape.xml -->

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  	
+  	 <RelativeLayout
+   		android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:padding = "10dip">
+    	
+	    <ImageView
+	    	android:id="@+id/logoKidsList"
+	    	android:src="@drawable/logo_small_proxy"
+	    	android:layout_height="wrap_content" 
+	       	android:layout_width="wrap_content"
+	       	android:layout_marginLeft="13dip"
+	       	android:contentDescription="@string/logo"/> 
+	    
+	    <TextView 
+	       	android:textAppearance="?android:attr/textAppearanceLarge" 
+	       	android:id="@+id/textViewKids" 
+	       	android:text="@string/bbKids" 
+	       	android:layout_height="wrap_content" 
+	       	android:layout_width="wrap_content" 
+	       	android:layout_alignBottom="@id/logoKidsList"
+	       	android:gravity="right"
+	       	android:layout_alignParentRight="true"
+	       	android:paddingLeft="10dip">
+	     </TextView>
+	        
+	    <ImageButton 
+	        android:visibility="gone"
+	        android:id="@+id/bbMenuKidsList"
+	        android:src="@drawable/ic_menu_moreoverflow_normal_holo_light"	 
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/textViewKids"
+	       	android:layout_width="wrap_content"
+	       	style="@style/Widget.ImageButton"
+	       	android:layout_alignBottom="@id/logoKidsList"
+	       	android:contentDescription="@string/menu"/>    
+	        	
+	   
+	</RelativeLayout>
+  	
+  	<ListView 
+  		android:id="@+id/bbKidsListView" 
+    	android:layout_height="wrap_content" 
+    	android:layout_weight="1"
+    	android:layout_width="match_parent"
+    	android:cacheColorHint="#00000000"
+    	android:listSelector="#00000000"
+    	android:background="@drawable/rounded_corners_kids"
+    	android:layout_marginBottom="10dip"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip"
+    	android:requiresFadingEdge="none"
+    	android:footerDividersEnabled="false">
+    </ListView>
+
+	<TextView 
+		android:id="@+id/bbEmptyKidsList"
+		android:layout_height="match_parent" 
+	   	android:layout_weight="1"
+	   	android:layout_width="match_parent"
+	   	android:background="@drawable/rounded_corners_kids"
+	   	android:layout_marginBottom="10dip"
+	   	android:layout_marginLeft="10dip"
+	   	android:layout_marginRight="10dip"
+	   	android:padding = "10dip"
+		android:text="@string/bbNoDataChildren">
+	</TextView> 
+	
+	<!-- 
+	<LinearLayout 
+  	android:layout_width="match_parent" 
+  	android:layout_height="wrap_content"
+  	android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_marginBottom="15dip"
+    android:gravity="center">
+  	 -->
+  	  
+  	  
+  	  <!-- notification -->
+  	  <Button
+        android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:weightSum="1.0"
+		android:id="@+id/bbJointUserNotificationHomeButton"
+		android:background="@drawable/rounded_corners_pink_button"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:layout_marginBottom="10dip"
+		android:text="@string/bbNotificationHomeText"
+	   	android:focusableInTouchMode="true"
+	   	android:visibility="gone"
+	    android:gravity="left|center"/>
+		
+  	
+  		<Button 
+  		android:layout_width="wrap_content" 
+  		android:layout_height="wrap_content" 
+  		android:text="@string/bbAddChild" 
+  		android:id="@+id/bbAddChildButton"
+  		android:drawableLeft="@drawable/plus_icon"
+  		android:gravity="left|center_vertical"
+  		android:background="@drawable/button_selector"
+  		android:textColor="#ff14808b"
+  		android:drawablePadding="15dip"
+    	android:paddingTop="10dip"
+    	android:paddingBottom="10dip"
+    	android:paddingLeft="45dip"
+    	android:paddingRight="45dip"
+    	android:layout_gravity="center"
+    	android:layout_marginBottom="10dip">
+  		</Button>
+  	
+  	<!-- 
+  	</LinearLayout>
+     -->
+</LinearLayout>
+<!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/layout/kid_list.xml -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/bbMilestonesChildButton"
+          android:title="@string/bbMilestones"/>
+    
+    <item android:id="@+id/bbEditChildButton"
+          android:title="@string/bbEditChild"/>  
+          
+    <item android:id="@+id/bbDeleteChildButton"
+          android:title="@string/bbDeleteChild" />
+        
+</menu><!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/menu/kids_context_menu.xml -->

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"> 
+  
+  <!-- header -->
+	<RelativeLayout
+   		android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:padding = "10dip">
+    	
+	    <ImageButton
+		    	android:id="@+id/homeButtonJointUser"
+		    	android:src="@drawable/logo_small_proxy"
+		    	android:background="#00ffffff"
+		    	android:clickable="true"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginLeft="13dip" 
+		       	android:layout_width="wrap_content"
+		       	android:contentDescription="@string/logo"/>
+		    
+		    <ImageView
+		  		    android:layout_width="wrap_content"
+		  		    android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="-7dip"
+					android:layout_marginTop="32dip"
+		  		    android:src="@drawable/toggle_left"
+		  		    android:layout_marginBottom="5dip"
+		  		    android:contentDescription="@string/toggle_left"/>
+	    
+	    <TextView 
+	       	android:textAppearance="?android:attr/textAppearanceLarge" 
+	       	android:id="@+id/textViewJointUser" 
+	       	android:layout_height="wrap_content" 
+	       	android:gravity="bottom|right"
+	       	android:layout_alignParentRight="true"
+	       	android:layout_alignBottom="@id/homeButtonJointUser"
+	       	android:layout_width="wrap_content" 
+	       	android:paddingLeft="10dip"
+	       	android:text="@string/bbJointUser">
+	    </TextView>
+	</RelativeLayout>
+	
+	<ScrollView
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dip" 
+    	android:layout_weight="1"
+		android:background="@drawable/rounded_corners_kids"
+    	android:layout_marginBottom="10dip"
+    	android:layout_marginLeft="10dip"
+    	android:layout_marginRight="10dip">
+	    
+		<RelativeLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+	    	android:padding="10dip"
+	    	android:focusable="true"
+    		android:focusableInTouchMode="true">
+		
+		<!-- notification -->
+		<LinearLayout
+   			android:layout_width="match_parent" 
+   			android:layout_height="wrap_content"
+   			android:weightSum="1.0"
+   			android:id="@+id/bbJointUserNotificationLayout"
+   			android:background="@drawable/rounded_corners_pink"
+   			android:visibility="gone"
+   			android:layout_marginBottom="10dip">
+				
+		    <TextView
+		        android:id="@+id/bbJointUserNotification"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_weight="0.90"
+		        android:focusableInTouchMode="true"
+		        android:gravity="left|center"
+		        android:layout_marginRight="5dip"/>
+		    
+		    <ImageButton 
+				android:id="@+id/bbJointUserNotificationButton" 
+				android:layout_width="wrap_content" 
+		  		android:layout_height="wrap_content"
+		  		android:src="@drawable/x_icon"
+				style="@style/Widget.Button"
+				android:gravity="center|center"
+		    	android:layout_weight=".10"
+		    	android:contentDescription="@string/notification">
+		    	
+			</ImageButton>
+			
+		</LinearLayout>    
+		   
+			<!-- received invites -->	
+			<TextView 
+			  	android:id="@+id/bbReceivedInviteText" 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content"
+			  	android:layout_below="@id/bbJointUserNotificationLayout"/>
+			
+			<TextView 
+			  	android:id="@+id/bbReceivedInviteEmail" 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content"
+			  	android:layout_below="@id/bbReceivedInviteText"
+			  	android:gravity="center|center_vertical"
+		    	android:layout_centerInParent="true"
+		    	android:paddingTop="10dip"
+		    	android:paddingBottom="10dip"/>	
+			
+			<!-- buttons -->
+			<LinearLayout
+    			android:layout_width="match_parent" 
+    			android:layout_height="wrap_content"
+    			android:weightSum="1.0" 
+    			android:layout_below="@id/bbReceivedInviteEmail"
+    			android:id = "@+id/bbApprovalButtons">
+    			
+				<Button
+				    android:id="@+id/bbApproveInviteButton"
+				    android:layout_width="0dip" 
+				  	android:layout_height="wrap_content"
+				  	android:layout_weight=".50"
+				  	android:layout_margin="10dip"
+			    	android:gravity="center|center_vertical"
+			    	android:text="@string/bbReceivedInvitesTextApprove" />
+				
+				<Button 
+				    android:id="@+id/bbRejectInviteButton"
+				    android:layout_width="0dip" 
+				  	android:layout_height="wrap_content"
+				  	android:layout_weight=".50"
+				  	android:layout_margin="10dip"
+		    		android:gravity="center|center_vertical" 
+				    android:text="@string/bbReceivedInvitesTextReject"/>
+			
+			</LinearLayout>
+		
+			<!-- separator -->  
+		    <View
+		        android:id="@+id/bbReceivedInvitesSeparator" 
+		        android:layout_width="fill_parent"
+ 				android:layout_height="2dip"
+ 				android:background="@drawable/divider_color" 
+ 				android:layout_marginTop="20dip"
+ 				android:layout_marginBottom="20dip"
+ 				android:layout_below="@id/bbApprovalButtons"/> 
+		
+			<!-- lead -->
+		     <TextView 
+			  	android:id="@+id/bbJointUserEmailLead" 
+			  	android:layout_width="wrap_content" 
+			  	android:layout_height="wrap_content"
+			  	android:focusableInTouchMode="true"
+			  	android:layout_marginBottom="10dip"
+			  	android:layout_below="@id/bbReceivedInvitesSeparator"/>
+		     
+		     
+		    
+		    <!-- email label --> 
+			  <TextView 
+			  	android:id="@+id/bbJointUserEmailLabel" 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content"
+			  	android:gravity="right"
+			  	android:layout_marginBottom="2dip"
+			  	android:layout_below="@id/bbJointUserEmailLead"/>
+			
+			<!-- email field -->
+			  <EditText 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content" 
+			  	android:id="@+id/bbJointUserEmail" 
+			  	android:inputType="textEmailAddress"
+			  	android:background="@drawable/rounded_corners_white"
+			  	android:textColor="#ff14808b"
+			  	android:layout_below="@id/bbJointUserEmailLabel"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:imeOptions="actionDone"
+			    android:layout_marginBottom="10dip">
+			  </EditText>
+			
+			<!-- info -->  
+			  <TextView 
+			  	android:id="@+id/bbJointUserEmailText" 
+			  	android:layout_width="match_parent" 
+			  	android:layout_height="wrap_content"
+			  	android:focusableInTouchMode="true"
+			  	android:layout_below="@id/bbJointUserEmail" />
+			  
+			<Button 
+				android:id="@+id/bbAddJointUserButton" 
+				android:layout_width="wrap_content" 
+		  		android:layout_height="wrap_content"
+				android:layout_marginLeft="10dip"
+		    	android:layout_marginRight="10dip"
+		    	android:layout_marginTop="10dip"
+		    	android:layout_gravity="center"
+		    	android:gravity="center|center_vertical"
+		    	android:layout_centerInParent="true"
+		    	android:drawableLeft="@drawable/plus_icon"
+		    	android:drawablePadding="15dip"
+		    	android:paddingTop="10dip"
+		    	android:paddingBottom="10dip"
+		    	android:paddingLeft="40dip"
+		    	android:paddingRight="40dip"
+		    	android:layout_below="@id/bbJointUserEmailText">
+			</Button>  
+			  
+				
+		</RelativeLayout>
+		
+	</ScrollView>	
+	
+</LinearLayout>    

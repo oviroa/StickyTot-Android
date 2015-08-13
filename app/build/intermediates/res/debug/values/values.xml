@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="bbGenderArray">
+        <item>girl</item>
+        <item>boy</item>
+    </string-array>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string-array name="bbImageTypes">
+        <item>image/jpeg</item>
+        <item>image/png</item>
+		<item>image/gif</item>
+		<item>application/octet-stream</item>
+    </string-array>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="bbSourceArray">
+        <item>camera</item>
+        <item>gallery</item>
+    </string-array>
+    <string-array name="milestones_array">
+        <item>2 Months</item>
+        <item>4 Months</item>
+        <item>6 Months</item>
+        <item>9 Months</item>
+        <item>1 Year</item>
+        <item>18 Months</item>
+        <item>2 Years</item>
+        <item>3 Years</item>
+        <item>4 Years</item>
+        <item>5 Years</item>
+    </string-array>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <color name="bbMainTextColor">#ff14808b</color>
+    <color name="bbMainTextColorDisabled">#bbf9c5c9</color>
+    <declare-styleable name="CircleFlowIndicator"><attr format="color" name="activeColor"/><attr format="color" name="inactiveColor"/><attr format="dimension" name="radius"/><attr format="boolean" name="centered"/><attr format="integer" name="fadeOut"/><attr name="inactiveType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr name="activeType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr></declare-styleable>
+    <declare-styleable name="TitleFlowIndicator"><attr format="dimension" name="titlePadding"/><attr format="dimension" name="clipPadding"/><attr format="color" name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr format="dimension" name="selectedSize"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="dimension" name="footerLineHeight"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerTriangleHeight"/></declare-styleable>
+    <declare-styleable name="ViewFlow"><attr format="integer" name="sidebuffer"/></declare-styleable>
+    <dimen name="bbDialogWidth">290dip</dimen>
+    <dimen name="bbDividerHeight">1px</dimen>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="tag_image_loader" type="id"/>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <integer name="bbCurrentVersion">30</integer>
+    <integer name="bbDaysForExpiration">16</integer>
+    <integer name="bbEventNoteLines">5</integer>
+    <integer name="bbEventNoteLinesTabletLandscape">10</integer>
+    <integer name="bbEventNoteLinesTabletPortrait">20</integer>
+    <integer name="bbEventsPerInterval">10</integer>
+    <integer name="bbEventsPerPage">2</integer>
+    <integer name="bbExceptionTypeNonRecoverable">1</integer>
+    <integer name="bbExceptionTypeRecoverable">0</integer>
+    <integer name="bbExceptionTypeValidation">2</integer>
+    <integer name="bbImageMainSize">512</integer>
+    <integer name="bbImageThumbSize">200</integer>
+    <integer name="bbTimeOutMS">35000</integer>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">StickyTot</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbAccountLabel">account</string>
+    <string name="bbAccountToken">bbAccountToken</string>
+    <string name="bbAccountType">com.google</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbAddChild">add child</string>
+    <string name="bbAddChildForSharing">you must register a child in order to add an event/picture. please start the application and register a child.</string>
+    <string name="bbAddEvent">add event</string>
+    <string name="bbAddJointUser">joint user</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbAdminEmail">oviroa@gmail.com</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbAreYouSure">are you sure?</string>
+    <string name="bbBack">back</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbBubuPrefsLabel">BUBU_PREFS</string>
+    <string name="bbCD2MApp">app</string>
+    <string name="bbCD2MChildMessage">0</string>
+    <string name="bbCD2MEventMessage">1</string>
+    <string name="bbCD2MInviteMessage">3</string>
+    <string name="bbCD2MRegistrationPackage">com.google.android.c2dm.intent.REGISTER</string>
+    <string name="bbCD2MSender">sender</string>
+    <string name="bbCD2MUnregistrationPackage">com.google.android.c2dm.intent.UNREGISTER</string>
+    <string name="bbChild">child</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbChildAge">age</string>
+    <string name="bbChildAgeStr">age-str</string>
+    <string name="bbChildBrandNew">brand new</string>
+    <string name="bbChildDOB">date of birth</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbChildData">child_data</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbChildEdit">edit child info</string>
+    <string name="bbChildGender">gender</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbChildKey">childKey</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbChildMonths">m</string>
+    <string name="bbChildName">child name</string>
+    <string name="bbChildNew">new child</string>
+    <string name="bbChildSelectGender">select gender</string>
+    <string name="bbChildThumbUrl">child thumb url</string>
+    <string name="bbChildWeeks">w</string>
+    <string name="bbChildYears">y</string>
+    <string name="bbChooseAccount">choose the account you want to use</string>
+    <string name="bbChooseOption">choose an option</string>
+    <string name="bbChooseSource">choose source</string>
+    <string name="bbChooseSourceCamera">camera</string>
+    <string name="bbChooseSourceGallery">camera</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbChosenAccount">bbChosenAccount</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbConnecting">processing …</string>
+    <string name="bbDateBeforeBirth">date is before birth date / </string>
+    <string name="bbDateBeforeLimit">you cannot use dates from before the child\'s birth</string>
+    <string name="bbDatePastLimit">you cannot use a date from the future</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbDefaultImage">/images/default.png</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbDefaultImageURL">https://www.stickytot.com/images/default.png</string>
+    <string name="bbDeleteChild">delete child</string>
+    <string name="bbDeleteEvent">delete event</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbDob">dob</string>
+    <string name="bbDomain">www.stickytot.com</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbDone">done</string>
+    <string name="bbDuplicate">duplicate /</string>
+    <string name="bbEditChild">edit child</string>
+    <string name="bbEditEvent">edit event</string>
+    <string name="bbErrorInstructions">hit \"back\" and try again or \"log out\" and log back in</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbErrorMessage">errorMessage</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbErrorNoConnection">no internet connection, try again</string>
+    <string name="bbErrorNoData">no data</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbEvent">event</string>
+    <string name="bbEventData">event_data</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbEventDate">date</string>
+    <string name="bbEventEdit">edit event info</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbEventFootprint">bbEventFootprint</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbEventHeight">height</string>
+    <string name="bbEventHeightIm">height(in)</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbEventKey">eventKey</string>
+    <string name="bbEventLinkPrefix">https://www.stickytot.com/event.jsp?id=</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbEventNew">new event</string>
+    <string name="bbEventNote">note</string>
+    <string name="bbEventWeight">weight</string>
+    <string name="bbEventWeightIm">weight(lb)</string>
+    <string name="bbEvents">events</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbEventsLabel">EVENTS</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbFor">for</string>
+    <string name="bbFutureDate">date is in the future / </string>
+    <string name="bbGA">UA-27960833-1</string>
+    <string name="bbGeneralAuthenticationErrorMessage">could not complete authentication. your session may have expired. please log out and log back in again</string>
+    <string name="bbGeneralErrorMessage">there was an error</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbGoogleAcctType">com.google</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbHeight">ht.</string>
+    <string name="bbHeightPercentile">height %</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbHintShown">bbHintShown</string>
+    <string name="bbHomeNotificationShown">bbHomeNotificationShown</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbImageProblem">the image you selected could not be processed. try again with an image stored on your device</string>
+    <string name="bbImageProcessing">processing image…</string>
+    <string name="bbInvalid">invalid</string>
+    <string name="bbInvalidDate">date is invalid /</string>
+    <string name="bbInvalidEmail">email is invalid / </string>
+    <string name="bbInvalidEmailShort">email is invalid</string>
+    <string name="bbInvalidEmailYours">you just entered your own email, try again</string>
+    <string name="bbInvalidGender">gender is invalid / </string>
+    <string name="bbInvalidHeight">entered height is invalid</string>
+    <string name="bbInvalidInvite">the user you invited cannot accept your invitation</string>
+    <string name="bbInvalidName">name is invalid / </string>
+    <string name="bbInvalidNote">note is invalid / </string>
+    <string name="bbInvalidWeight">entered weight is invalid</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbInvite">invite</string>
+    <string name="bbInviteApprovedMessage">3</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbInviteApprovedText">your joint user invitation was approved</string>
+    <string name="bbInviteInvalid">the user you invited cannot accept your invitation</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbInviteReceivedMessage">2</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbInviteReceivedText">you received a joint user invitation</string>
+    <string name="bbInviteRedundant">you already invited a user to join</string>
+    <string name="bbInviteRejectedText">your joint user invitation was rejected</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbInviteRejectionMessage">1</string>
+    <string name="bbInviteRemovalMessage">0</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbInviteRemovedText">you are no longer a joint user</string>
+    <string name="bbJointUser">joint user</string>
+    <string name="bbJointUserEmailLabel">enter user\'s email</string>
+    <string name="bbJointUserEmailLabelApproved">the joint user invitation was approved</string>
+    <string name="bbJointUserEmailLabelPending">invited user\'s email</string>
+    <string name="bbJointUserEmailLead">you can share all your entries and updates with a user of your choice. he/she will be able to see your entries without having the ability to edit them.</string>
+    <string name="bbJointUserEmailLeadPending">an invitation was sent</string>
+    <string name="bbJointUserEmailText">the user will be notified of your request and will need to approve it before he/she can view your entries.</string>
+    <string name="bbJointUserEmailTextApproved">the joint user will be able to see your entries without having the ability to edit them.</string>
+    <string name="bbJointUserEmailTextPending">the user was notified of your request and will need to approve it before he/she can view your entries.</string>
+    <string name="bbJointUserInviteApproved">joint user invite was approved</string>
+    <string name="bbJointUserInviteRejected">joint user invite was rejected</string>
+    <string name="bbJointUserInvited">joint user was invited</string>
+    <string name="bbJointUserRemoved">joint user was removed</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbKey">key</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbKids">kids</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbKidsLabel">KIDS</string>
+    <string name="bbLastLoginDate">bbLastLoginDate</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbLoading">processing. please wait…</string>
+    <string name="bbLogIn">log in</string>
+    <string name="bbLogInForSharing">you must be logged in to share pictures. please start the application and log in.</string>
+    <string name="bbLogInWithGoogle">log in with your google account</string>
+    <string name="bbLogOut">log out</string>
+    <string name="bbMakeSelection">select</string>
+    <string name="bbMilestones">milestones</string>
+    <string name="bbMilestonesError">milestones_error</string>
+    <string name="bbMilestonesEvent">milestones</string>
+    <string name="bbNA">n/a</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbNewestMeasurement">newestMeasurement</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbNo">no</string>
+    <string name="bbNoDataChildren">you have no registered children</string>
+    <string name="bbNoDataEvents">you have registered no events</string>
+    <string name="bbNotificationHomeText">click to see your joint user status</string>
+    <string name="bbOK">ok</string>
+    <string name="bbOopsy">oopsy!</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbParent">parent</string>
+    <string name="bbParentKey">parentKey</string>
+    <string name="bbParentLabel">PARENT</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbPrivacy">privacy</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbPrivacyUrl">https://www.stickytot.com/privacy.jsp?source=android</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbProblem">there was a problem. try again!</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbProtocol">https://</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbReceivedInvitesText">you are invited to be a joint user by:</string>
+    <string name="bbReceivedInvitesTextApprove">approve</string>
+    <string name="bbReceivedInvitesTextReject">reject</string>
+    <string name="bbRedundant">redundant</string>
+    <string name="bbRefresh">refresh</string>
+    <string name="bbRefreshText">fresher info is available</string>
+    <string name="bbRemoveJointUser">remove joint user</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbReset">reset</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbSave">save</string>
+    <string name="bbSelectAChild">tap on a child to create an event with the chosen picture</string>
+    <string name="bbShareEvent">share event</string>
+    <string name="bbShareLinkTo">share event link to …</string>
+    <string name="bbSpeakMessage">speak to enter note</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbTokenLabel">TOKEN</string>
+    <string name="bbTokenReserveLabel">TOKEN_RESERVE</string>
+    <string name="bbUpdateEvent">update_event</string>
+    <string name="bbUpdateEventAction">action</string>
+    <string name="bbUpdateEventUpdated">updated</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbUpdateText">visit stickytot.com/new-features.jsp for details about the new features.</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbUpdateTextShown">bbUpdateTextShown</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbUpdateTitle">thank you for downloading version 1.4.1!</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbUpdateVersion">bbUpdateVersion</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bbUploadingChildData">uploading child data…</string>
+    <string name="bbUploadingEventData">uploading event data…</string>
+    <string name="bbUploadingPicture">uploading picture…</string>
+    <string name="bbWeight">wt.</string>
+    <string name="bbWeightPercentile">weight %</string>
+    <string name="bbWelcome">welcome!</string>
+    <string name="bbYes">yes</string>
+    <string name="child_picture">child picture</string>
+    <string name="event_picture">event picture</string>
+    <string name="hand">hand</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logo">StickyTot</string>
+    <string name="menu">menu</string>
+    <string name="menu_settings">Settings</string>
+    <string name="notification">notification</string>
+    <string name="rotate">rotate</string>
+    <string name="speak">speak</string>
+    <string name="title_activity_milestones">MilestonesActivity</string>
+    <string name="toggle_left">toggle left</string>
+    <string name="toggle_right">toggle right</string>
+    <string name="zero">0</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="BubuDialogTheme" parent="@android:style/Theme.Dialog"> 
+        <item name="android:listViewStyle">@style/listView</item> 
+        <item name="android:alertDialogStyle">@style/alertDialog</item>
+        <item name="android:windowBackground">@drawable/transparent_padding</item>
+    </style>
+    <style name="BubuEventDisplayTheme" parent="@android:style/Theme">
+    	<item name="android:windowBackground">@drawable/window_background_outer</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:textColor">@color/bbMainTextColor</item>
+    	<item name="android:panelFullBackground">@drawable/options_menu</item>
+    	<item name="android:selectableItemBackground">@drawable/window_background</item>
+    	<item name="android:spinnerStyle">@style/Widget.Spinner</item>
+    	<item name="android:listViewStyle">@style/listView</item>
+    	<item name="android:alertDialogStyle">@style/alertDialog</item>
+    	<item name="android:gridViewStyle">@style/gridView</item>
+    </style>
+    <style name="BubuMainTheme" parent="@android:style/Theme.NoTitleBar">
+    	<item name="android:windowBackground">@drawable/window_background_outer</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:textColor">@color/bbMainTextColor</item>
+    	<item name="android:panelFullBackground">@drawable/options_menu</item>
+    	<item name="android:selectableItemBackground">@drawable/window_background</item>
+    	<item name="android:spinnerStyle">@style/Widget.Spinner</item>
+    	<item name="android:buttonStyle">@style/Widget.Button</item>
+    	<item name="android:listViewStyle">@style/listView</item>
+    	<item name="android:alertDialogStyle">@style/alertDialog</item>
+    	<item name="android:gridViewStyle">@style/gridView</item>
+    	<item name="android:alertDialogTheme">@style/BubuDialogTheme</item>
+    </style>
+    <style name="Widget.Button" parent="android:Widget">
+	     <item name="android:background">@drawable/button_selector</item>
+	     <item name="android:clickable">true</item>
+	     <item name="android:textColor">@color/button_text_color</item>
+	 </style>
+    <style name="Widget.Button.Blue" parent="android:Widget">
+	     <item name="android:background">@drawable/button_selector_blue</item>
+	     <item name="android:clickable">true</item>
+	     <item name="android:textColor">@color/button_text_color</item>
+	 </style>
+    <style name="Widget.ImageButton" parent="android:Widget">
+	     <item name="android:background">@drawable/menu_button_selector</item>
+	     <item name="android:clickable">true</item>
+	 </style>
+    <style name="Widget.ImageButtonBlue" parent="android:Widget">
+	     <item name="android:background">@drawable/menu_button_selector_blue</item>
+	     <item name="android:clickable">true</item>
+	 </style>
+    <style name="Widget.Spinner" parent="android:Widget">
+	     <item name="android:background">@drawable/spinner_selector</item>
+	     <item name="android:clickable">true</item>
+	</style>
+    <style name="alertDialog">
+	   <item name="android:fullBright">@drawable/transparent_padding</item>	  
+	</style>
+    <style name="gridView" parent="@android:style/Widget.GridView">
+ 		<item name="android:background">@drawable/rounded_corners_kids</item>
+ 		<item name="android:listSelector">@drawable/list_selector</item>
+ 	</style>
+    <style name="listView" parent="@android:style/Widget.ListView.White">
+ 		<item name="android:background">@drawable/rounded_corners_kids_semidark</item>
+ 		<item name="android:listSelector">@drawable/list_selector</item>
+ 		<item name="android:divider">@drawable/divider_color</item>
+ 		<item name="android:dividerHeight">@dimen/bbDividerHeight</item> 		
+ 	</style>
+</resources>

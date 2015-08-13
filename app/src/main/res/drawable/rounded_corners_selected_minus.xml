@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top ="3dip">
+		<shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+    		<solid android:color="#fff9c5c9"/>
+    		<corners android:radius="6dip" />
+		</shape> 
+	</item>
+	<item android:top ="3dip">
+      <bitmap android:src="@drawable/substract_icon"
+        android:gravity="center" />
+    </item>
+</layer-list>

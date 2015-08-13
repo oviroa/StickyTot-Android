@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item>
+	    <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+   			android:src="@drawable/texture_pink" 
+    		android:tileMode="repeat" />
+	</item>
+	<item>
+		<shape xmlns:android="http://schemas.android.com/apk/res/android"> 
+    		<solid android:color="#00f9c5c9" /> 
+    		<corners android:radius="3dip" /> 
+		</shape> 
+	</item>
+	<item>
+      <bitmap android:src="@drawable/noimage_background" 
+        android:gravity="center" />
+    </item>
+</layer-list>     

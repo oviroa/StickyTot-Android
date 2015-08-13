@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.garagewarez.bubu.android"
+    android:installLocation="auto"
+    android:versionCode="31"
+    android:versionName="1.4.7" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <!-- Only this application can receive the messages and registration result -->
+    <permission
+        android:name="com.garagewarez.bubu.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.garagewarez.bubu.android.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    
+	<application
+        android:name="com.garagewarez.bubu.android.BubuApp"
+        android:debuggable="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        
+       <!--  
+       <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/BubuMainTheme" />
+        -->
+        
+        <service
+            android:name="com.garagewarez.bubu.android.utils.WarmUpService"
+            android:exported="false"/>
+        
+        
+        <activity
+            android:name="com.garagewarez.bubu.android.LauncherActivity"
+            android:label="@string/app_name"
+            android:noHistory="false"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+				<category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.garagewarez.bubu.android.AccountActivity"
+            android:theme="@style/BubuMainTheme" />
+        <activity
+            android:name="com.garagewarez.bubu.android.ErrorMessageActivity"
+            android:theme="@style/BubuMainTheme" />
+        <activity
+            android:name="com.garagewarez.bubu.android.KidsActivity"
+            android:theme="@style/BubuMainTheme" />
+        <activity
+            android:name="com.garagewarez.bubu.android.EventsActivity"
+            android:theme="@style/BubuMainTheme" />
+        <activity
+            android:name="com.garagewarez.bubu.android.EventShowActivity"
+            android:theme="@style/BubuEventDisplayTheme" />
+        <activity
+            android:name="com.garagewarez.bubu.android.MilestonesActivity"
+            android:theme="@style/BubuMainTheme" />
+        <activity
+            android:name="com.garagewarez.bubu.android.JointUserFormActivity"
+            android:theme="@style/BubuMainTheme" />
+        <activity
+            android:name="com.garagewarez.bubu.android.ChildDetailActivity"
+            android:theme="@style/BubuMainTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.garagewarez.bubu.android.EventDetailActivity"
+            android:theme="@style/BubuMainTheme"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- Only C2DM servers can send messages for the app. If permission is not set - any other app can generate it -->
+        <receiver
+            android:name="com.garagewarez.bubu.android.MyC2dmReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <!-- Receive the actual message -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.garagewarez.bubu.android" />
+            </intent-filter>
+            <!-- Receive the registration id -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.garagewarez.bubu.android" />
+            </intent-filter>
+        </receiver>
+
+        <!--<uses-library required="false" name="com.sec.android.app.multiwindow" />-->
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip" />
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:value="598.0dip" />
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip" />
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip" />
+        
+    </application>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+    
+</manifest>
