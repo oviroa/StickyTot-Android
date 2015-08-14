@@ -7,7 +7,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
-import org.acra.ACRA;
 import org.apache.http.client.ClientProtocolException;
 import org.joda.time.DateTime;
 import org.joda.time.Days;
@@ -708,9 +707,6 @@ public class EventDetailActivity extends BubuFormActivity
 				{	
 					//log error once
 					updaterCrashed = true;
-					//send to bug tracker
-					ACRA.getErrorReporter().putCustomData("BBMessage", "EventDetailActivity 607 :: progress :: errorMessage: " + e.getMessage() );
-					ACRA.getErrorReporter().handleSilentException(null); 
 				}
 				
 				//exit

@@ -36,9 +36,10 @@ public class EventsVPAdapter extends PagerAdapter
     EventClickListener listener;
     ListView convertView;
     String parentKey;
-	  
+    boolean selectedChildIsJoint;
+
 	//Initialize adapter
-    public EventsVPAdapter(Activity activity, List<EventData> items, final EventClickListener listener, final int currentSelectorPage, String parentKey) 
+    public EventsVPAdapter(Activity activity, List<EventData> items, final EventClickListener listener, final int currentSelectorPage, String parentKey, boolean selectedChildIsJoint)
     {
         super();
        	
@@ -51,6 +52,7 @@ public class EventsVPAdapter extends PagerAdapter
         this.parentKey = parentKey;
         count = count*ScreenUtil.getMultiplier(context);
         this.eventsPerPage = count * context.getResources().getInteger(R.integer.bbEventsPerInterval);
+        this.selectedChildIsJoint = selectedChildIsJoint;
     }
     
     @Override
@@ -87,9 +89,9 @@ public class EventsVPAdapter extends PagerAdapter
         int deviceOrientation = context.getResources().getConfiguration().orientation;
 	      //if landscape, reduce rowcount by 1  
 	       if(deviceOrientation == Configuration.ORIENTATION_LANDSCAPE)
-	    	   convertView.setAdapter(new EventsAdapter(activity, R.layout.event_list_item_landscape, myItems, parentKey));
+	    	   convertView.setAdapter(new EventsAdapter(activity, R.layout.event_list_item_landscape, myItems, parentKey, selectedChildIsJoint));
 	       else
-	    	   convertView.setAdapter(new EventsAdapter(activity, R.layout.event_list_item, myItems, parentKey));
+	    	   convertView.setAdapter(new EventsAdapter(activity, R.layout.event_list_item, myItems, parentKey, selectedChildIsJoint));
 	       
 		//kill black background
 		convertView.setCacheColorHint(Color.parseColor("#00000000"));

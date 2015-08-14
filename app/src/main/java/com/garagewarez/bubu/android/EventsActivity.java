@@ -437,7 +437,8 @@ public class EventsActivity extends BubuCollectionActivity implements SeekBar.On
 									}
 								},
 								currentSelectorPage,
-								pk
+								pk,
+								selectedChildIsJoint
 								
 						));
 				

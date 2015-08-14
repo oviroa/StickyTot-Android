@@ -1,7 +1,5 @@
 package com.garagewarez.bubu.android;
 
-import org.acra.ACRA;
-
 import android.content.Context;
 import android.content.Intent;
 
@@ -32,14 +30,6 @@ public class ErrorHandler
 			{
 				userMessage = context.getResources().getString(R.string.bbErrorNoConnection);
 			}
-			
-			//send to bug tracker
-			ACRA.getErrorReporter().putCustomData("BBMessage userMessage", ": " + userMessage );
-			ACRA.getErrorReporter().putCustomData("BBMessage errorMessage", ": " + (errorMessage==null ? "no message" : errorMessage) );
-			ACRA.getErrorReporter().putCustomData("BBMessage exception", ": " + exception.getMessage() );
-			
-			//ACRA.getErrorReporter().putCustomData("errorMessage", errorMessage + exception.getMessage());
-			ACRA.getErrorReporter().handleSilentException(null);
 		}
 		
 		i.putExtra(context.getResources().getString(R.string.bbErrorMessage), userMessage);

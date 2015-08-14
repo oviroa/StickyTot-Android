@@ -1,10 +1,10 @@
 package com.garagewarez.bubu.android;
 
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
 
-import org.acra.ACRA;
-import org.acra.annotation.ReportsCrashes;
 import org.joda.time.DateTime;
 
 import android.app.Application;
@@ -24,12 +24,6 @@ import com.garagewarez.bubu.android.common.ParentData;
  */
 
 
-@ReportsCrashes(	
-					formUri = "http://www.bugsense.com/api/acra?api_key=601c5690",
-					//formKey="dHVmTUV6azFsYkkxZTBhLUJHMEo5U3c6MQ",
-					formKey=""
-			   )
-				
 public class BubuApp extends Application 
 {
 	
@@ -37,10 +31,8 @@ public class BubuApp extends Application
 	@Override
     public void onCreate() 
 	{
-        // The following line triggers the initialization of ACRA
-        ACRA.init(this);
-        
         super.onCreate();
+        Fabric.with(this, new Crashlytics());
         
         //ImageLoader imageLoader = ImageLoader.getInstance();
     	

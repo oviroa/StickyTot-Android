@@ -5,7 +5,6 @@ import java.io.OptionalDataException;
 import java.io.StreamCorruptedException;
 import java.util.Calendar;
 
-import org.acra.ACRA;
 import org.apache.http.client.ClientProtocolException;
 
 import android.annotation.SuppressLint;
@@ -507,9 +506,6 @@ public class ChildDetailActivity extends BubuFormActivity
 				{	
 					//log error once
 					updaterCrashed = true;
-					//send to bug tracker
-					ACRA.getErrorReporter().putCustomData("BBMessage", "ChildDetailActivity 477 :: progress :: errorMessage: " + e.getMessage() );
-					ACRA.getErrorReporter().handleSilentException(null);
 					
 				}	
 				

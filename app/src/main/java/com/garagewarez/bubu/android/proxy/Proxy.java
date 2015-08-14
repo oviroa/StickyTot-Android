@@ -27,6 +27,7 @@ import android.preference.PreferenceManager;
 import android.provider.Settings.Secure;
 import android.util.Log;
 
+import com.crashlytics.android.Crashlytics;
 import com.garagewarez.bubu.android.BubuApp;
 import com.garagewarez.bubu.android.R;
 import com.garagewarez.bubu.android.common.ChildData;
@@ -127,7 +128,7 @@ public class Proxy
         		
         		//attemt to retrieve from memory or local storage
         		ParentData pd = getStoredParentData(context);
-        	
+
         		//if not in memory or local storage, retrieve from server
         		if(pd == null || refresh)
         		{
@@ -175,10 +176,8 @@ public class Proxy
                 		throw new IOException(context.getResources().getString(R.string.bbGeneralAuthenticationErrorMessage));
            		 	}
 				}
-        		
-                
-        		return pd;
-                
+
+				return pd;
         }
         
         
@@ -841,7 +840,7 @@ public class Proxy
         {
 	     
         	if(pd != null)
-        	{	
+        	{
         		//store in memory
 	        	((BubuApp)context).setParentData(pd);
 	        	

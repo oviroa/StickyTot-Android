@@ -27,19 +27,20 @@ public class EventsAdapter extends ArrayAdapter<EventData>
 {
 	 
 	    int resource;
-	    String response;
 	    Context context;
 	    Typeface tf;
 	    String parentKey;
-	    
+		boolean selectedChildIsJoint;
+
 	    //Initialize adapter
-	    public EventsAdapter(Context context, int resource, List<EventData> items, String parentKey) 
+	    public EventsAdapter(Context context, int resource, List<EventData> items, String parentKey, boolean selectedChildIsJoint)
 	    {
 	        super(context, resource, items);
 	        this.resource=resource;	 
 	        this.context = context;
 	        this.parentKey = parentKey;
 	    	this.tf = Typeface.createFromAsset(context.getAssets(), "fonts/ExpletusSans-Regular.ttf");
+			this.selectedChildIsJoint = selectedChildIsJoint;
 	    }
 	    
 	    // static to save the reference to the outer class and to avoid access to
@@ -147,7 +148,7 @@ public class EventsAdapter extends ArrayAdapter<EventData>
 	        		)
 	        );
 	        
-	        if(!ed.getParentKey().equals(parentKey))
+	        if(selectedChildIsJoint)
 	        {
 	        	//joint user's color
 	        	rowView.setBackgroundResource(R.drawable.list_item_join);

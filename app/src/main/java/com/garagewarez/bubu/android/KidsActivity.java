@@ -41,6 +41,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
 import com.garagewarez.bubu.android.base.BubuCollectionActivity;
 import com.garagewarez.bubu.android.base.PrettyProgressDialog;
 import com.garagewarez.bubu.android.base.RotationSafeCollectionAsyncTask;
@@ -543,9 +544,11 @@ public class KidsActivity extends BubuCollectionActivity
 			
 			try 
 			{
+				ParentData pd = getProxy().getStoredParentData(getApplicationContext());
+				Crashlytics.setUserIdentifier(pd.getEmail());
 				//get persistent logged in user's parent key
-				final String pk = getProxy().getStoredParentData(getApplicationContext()).getEncodedKey();
-				
+				final String pk = pd.getEncodedKey();
+
 				kAdapter = new KidsAdapter
 				(
 						this, 

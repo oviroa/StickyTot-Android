@@ -12,7 +12,6 @@ import java.net.HttpURLConnection;
 import java.net.SocketTimeoutException;
 import java.net.URL;
 
-import org.acra.ACRA;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
@@ -280,10 +279,7 @@ final public class Connector
 		}
  		else
  		{
- 			//send to bug tracker
-			ACRA.getErrorReporter().putCustomData("BBCookieProcessor", "response code: " + conn.getResponseCode() );
-			//ACRA.getErrorReporter().putCustomData("errorMessage", errorMessage + exception.getMessage());
-			ACRA.getErrorReporter().handleSilentException(null);
+ 			//
  		}	
  		
  		conn.disconnect();

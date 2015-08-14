@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.garagewarez.bubu.android"
     android:installLocation="auto"
-    android:versionCode="31"
-    android:versionName="1.4.7" >
+    android:versionCode="33"
+    android:versionName="1.5.1" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -21,20 +21,10 @@
     
 	<application
         android:name="com.garagewarez.bubu.android.BubuApp"
-        android:debuggable="false"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
-        
-       <!--  
-       <activity
-            android:name="org.acra.CrashReportDialog"
-            android:excludeFromRecents="true"
-            android:finishOnTaskLaunch="true"
-            android:launchMode="singleInstance"
-            android:theme="@style/BubuMainTheme" />
-        -->
         
         <service
             android:name="com.garagewarez.bubu.android.utils.WarmUpService"
@@ -113,6 +103,9 @@
         <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip" />
         <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip" />
         
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6c114e74d2a6afdfd6255e1fa1745dd400faef52" />
     </application>
     <uses-permission android:name="android.permission.GET_ACCOUNTS" >
     </uses-permission>
