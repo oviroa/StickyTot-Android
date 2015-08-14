@@ -84,6 +84,9 @@ public class EventShowActivity extends BubuBaseActivity
 	
 	//child key
 	private String parentKey;
+
+	//is joint
+	private boolean selectedChildIsJoint;
 	
 	private int eventDataPosition;
 	
@@ -123,6 +126,8 @@ public class EventShowActivity extends BubuBaseActivity
 	 	parentKey = (String)i.getStringExtra(getResources().getString(R.string.bbParentKey));
 	 	
 	 	thumbUrl = (String)i.getStringExtra(getResources().getString(R.string.bbChildThumbUrl));
+
+		selectedChildIsJoint = (boolean)i.getBooleanExtra(getResources().getString(R.string.bbIsJoint),false);
 	 	
 	 	// Register as a receiver to listen for event/broadcasts
         IntentFilter filter = new IntentFilter(getResources().getString(R.string.bbUpdateEvent));
@@ -646,65 +651,22 @@ public class EventShowActivity extends BubuBaseActivity
 	    //inflate menu based on xml menu
 		MenuInflater inflater = getMenuInflater();
 	    
-		String pk;
-		try 
+
+		if(!selectedChildIsJoint)
+			inflater.inflate(R.menu.events_menu, menu);
+		else
+			inflater.inflate(R.menu.events_menu_readonly, menu);
+
+		//styling hack
+		try
 		{
-			pk = getProxy().getStoredParentData(getApplicationContext()).getEncodedKey();
-			if(pk.equals(parentKey))
-				inflater.inflate(R.menu.events_menu, menu);
-			else
-				inflater.inflate(R.menu.events_menu_readonly, menu);
-	    
-		    //styling hack
-		    try
-		    {
-		    	setMenuBackground();
-		    }
-		    catch(Exception e)
-		    {
-		    	//hack did not work, ignore	    	
-		    }
+			setMenuBackground();
 		}
-		catch (OptionalDataException e1) 
+		catch(Exception e)
 		{
-			ErrorHandler.execute
-			(
-					EventShowActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventShowActivity 630:", 
-					e1
-			);
-		} 
-		catch (StreamCorruptedException e1) 
-		{
-			ErrorHandler.execute
-			(
-					EventShowActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventShowActivity 640:", 
-					e1
-			);
-		} 
-		catch (ClassNotFoundException e1) 
-		{
-			ErrorHandler.execute
-			(
-					EventShowActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventShowActivity 650:", 
-					e1
-			);
-		} 
-		catch (IOException e1) 
-		{
-			ErrorHandler.execute
-			(
-					EventShowActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventShowActivity 660:", 
-					e1
-			);
-		} 
+			//hack did not work, ignore
+		}
+
 	    return true;
 	}
 	

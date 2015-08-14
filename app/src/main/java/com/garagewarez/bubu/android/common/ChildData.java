@@ -165,8 +165,18 @@ public class ChildData implements Serializable
 	{
 		return this.image;
 	}
-	
-	
+
+
+	private Boolean isJoint = false;
+
+	public Boolean getIsJoint() {
+		return isJoint;
+	}
+
+	public void setIsJoint(Boolean isJoint) {
+		this.isJoint = isJoint;
+	}
+
 	/**
 	 * Validates Child data
 	 * @return Result of validation

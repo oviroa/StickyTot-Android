@@ -137,6 +137,7 @@ public class EventsActivity extends BubuCollectionActivity implements SeekBar.On
     	dob = (Date)extras.getSerializable(getResources().getString(R.string.bbDob));
     	childKey = (String)extras.getString(getResources().getString(R.string.bbChildKey));
     	parentKey = (String)extras.getString(getResources().getString(R.string.bbParentKey));
+		selectedChildIsJoint = (boolean)extras.getBoolean(getResources().getString(R.string.bbIsJoint));
     	name = (String)extras.getString(getResources().getString(R.string.bbChildName));
     	thumbUrl = (String)extras.getString(getResources().getString(R.string.bbChildThumbUrl));
     	
@@ -205,67 +206,21 @@ public class EventsActivity extends BubuCollectionActivity implements SeekBar.On
     	//add event button inflate
     	Button addEventButton = (Button)this.findViewById(R.id.bbAddEventButton);
     	addEventButton.setTypeface(tf, 1);
-    	
-    	
-    	try 
-    	{
-			//TODO check for null returned on getStoredParentData
-    		String pk = getProxy().getStoredParentData(getApplicationContext()).getEncodedKey();
-			
-			//if not events from joint user
-			if(pk.equals(parentKey))
-			{	
-				addEventButton.setOnClickListener(new OnClickListener() 
-		    	{
-		    	    public void onClick(View v) 
-		    	    {
-		    	        addEvent();
-		    	    }
-		    	});
-			}
-			else//otherwiese, kill add button
-				addEventButton.setVisibility(8);
-	    } 
-		catch (OptionalDataException e) 
+
+
+		//if not events from joint user
+		if(!selectedChildIsJoint)
 		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 206: event data is null", 
-					null
-			);
-		} 
-		catch (StreamCorruptedException e) 
-		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 215: event data is null", 
-					e
-			);
-		} 
-		catch (ClassNotFoundException e) 
-		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 225: event data is null", 
-					e
-			);
-		} 
-		catch (IOException e) 
-		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 235: event data is null", 
-					e
-			);
+			addEventButton.setOnClickListener(new OnClickListener()
+			{
+				public void onClick(View v)
+				{
+					addEvent();
+				}
+			});
 		}
+		else//otherwise, kill add button
+			addEventButton.setVisibility(View.GONE);
 	    	
     	//child image
     	ImageView thumb = (ImageView)findViewById(R.id.bbChildImage);
@@ -703,12 +658,13 @@ public class EventsActivity extends BubuCollectionActivity implements SeekBar.On
 				(int)eventPosition
 		);
 		
-		mB.putString(getResources().getString(R.string.bbChildName),name);
+		mB.putString(getResources().getString(R.string.bbChildName), name);
 		mB.putSerializable(getResources().getString(R.string.bbDob), dob);
-		mB.putString(getResources().getString(R.string.bbChildKey),childKey);
+		mB.putString(getResources().getString(R.string.bbChildKey), childKey);
 		mB.putString(getResources().getString(R.string.bbParentKey),parentKey);
 		mB.putString(getResources().getString(R.string.bbEventKey),eventResponse.getList().get(eventPosition).getEncodedKey());
 		mB.putString(getResources().getString(R.string.bbChildThumbUrl),thumbUrl);
+		mB.putBoolean(getResources().getString(R.string.bbIsJoint), selectedChildIsJoint);
 		
 		i.putExtras(mB);
         
@@ -1237,76 +1193,26 @@ public class EventsActivity extends BubuCollectionActivity implements SeekBar.On
 		super.onCreateContextMenu(menu, v, menuInfo);
 		  
 		//get persistent logged in user's parent key
-		String pk;
-		try 
+		MenuInflater inflater = getMenuInflater();
+
+		if(!selectedChildIsJoint)
 		{
-			pk = getProxy().getStoredParentData(getApplicationContext()).getEncodedKey();
-			
-			  MenuInflater inflater = getMenuInflater();
-			 
-			  if(pk.equals(parentKey))
-			  {	  
-				  inflater.inflate(R.menu.events_context_menu, menu);
-			  }
-			  else
-			  {
-				  inflater.inflate(R.menu.events_context_menu_joint, menu);
-			  }	  
-			  
-			  //styling hack
-			  try
-			  {
-		    	setMenuBackground();
-			  }
-			  catch(Exception e)
-			  {
-		    	//hack did not work, ignore	    	
-			  }  
-				
-			
-		} 
-		catch (OptionalDataException e1) 
+			inflater.inflate(R.menu.events_context_menu, menu);
+		}
+		else
 		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 1145:", 
-					e1
-			);
-		} 
-		catch (StreamCorruptedException e1) 
+			inflater.inflate(R.menu.events_context_menu_joint, menu);
+		}
+
+		//styling hack
+		try
 		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 1155:", 
-					e1
-			);
-		} 
-		catch (ClassNotFoundException e1) 
+			setMenuBackground();
+		}
+		catch(Exception e)
 		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 1165:", 
-					e1
-			);
-		} 
-		catch (IOException e1) 
-		{
-			ErrorHandler.execute
-			(
-					EventsActivity.this, 
-					getResources().getString(R.string.bbProblem),
-					"EventsActivity 1175:", 
-					e1
-			);
-		}  
-	  
-	  
+			//hack did not work, ignore
+		}
 	}
 	
 	

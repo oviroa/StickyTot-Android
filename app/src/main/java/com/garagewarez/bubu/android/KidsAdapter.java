@@ -127,7 +127,7 @@ public class KidsAdapter extends ArrayAdapter<ChildData>
         		append(age).toString() 
         );
         
-        if(!cd.getParentKey().equals(parentKey))
+        if(cd.getIsJoint())
         {
         	
         	if(isShared)

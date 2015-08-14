@@ -21,6 +21,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Gravity;
@@ -80,7 +81,7 @@ public class KidsActivity extends BubuCollectionActivity
 	
 	//intent used to to send data to next activity
 	private Intent intent;
-	
+
 	@SuppressWarnings("deprecation")
 	@Override
     public void onCreate(Bundle savedInstanceState) 
@@ -603,8 +604,8 @@ public class KidsActivity extends BubuCollectionActivity
 								@Override
 								public boolean onItemLongClick(AdapterView<?> adapterView , View v, int position, long id) 
 								{
-								    //get child's parent/user key
-									parentKey = childResponse.getList().get((int)id).getParentKey();
+								    //get joint status
+									selectedChildIsJoint = childResponse.getList().get((int)id).getIsJoint();
 									
 									return false;
 								}
@@ -834,7 +835,8 @@ public class KidsActivity extends BubuCollectionActivity
 	  	//inflate xml (context) menu
 	  	MenuInflater inflater = getMenuInflater();
 	  
-	  	
+	  	Log.w("BUBU", "MOLA");
+
 	  	
 	  	
 	  	String pk;
@@ -842,7 +844,7 @@ public class KidsActivity extends BubuCollectionActivity
 	  	{
 		  pk = getProxy().getStoredParentData(getApplicationContext()).getEncodedKey();
 		  
-		  if(pk.equals(parentKey))
+		  if(!selectedChildIsJoint)
 		  {	  
 			  inflater.inflate(R.menu.kids_context_menu, menu);
 		  }
@@ -975,7 +977,7 @@ public class KidsActivity extends BubuCollectionActivity
             		Bundle mB = new Bundle();
             		//serialize and post events collection
             		mB.putSerializable(getResources().getString(R.string.bbDob), myCD.getDob());
-            		
+
             		//post parent key
             		mB.putString(getResources().getString(R.string.bbParentKey), myCD.getParentKey());
             		//post child key
@@ -984,7 +986,8 @@ public class KidsActivity extends BubuCollectionActivity
             		mB.putString(getResources().getString(R.string.bbChildName), myCD.getName());
             		//post url of img thumbnail
             		mB.putString(getResources().getString(R.string.bbChildThumbUrl), myCD.getPic().getThumb());
-            		
+            		//is joint
+					mB.putBoolean(getResources().getString(R.string.bbIsJoint), myCD.getIsJoint());
             		
             		//run post
             		intent.putExtras(mB);

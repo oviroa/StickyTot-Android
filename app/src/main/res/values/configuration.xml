@@ -54,6 +54,7 @@
     <!-- labels for extras -->
     <string name="bbDob">dob</string>
     <string name="bbParentKey">parentKey</string>
+    <string name="bbIsJoint">isJoint</string>
     <string name="bbChildKey">childKey</string>
     <string name="bbEventKey">eventKey</string>
     <string name="bbReset">reset</string>

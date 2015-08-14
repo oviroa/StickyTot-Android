@@ -49,6 +49,8 @@ public abstract class BubuCollectionActivity extends BubuBaseActivity
 	public String parentKey;
 	
 	public String childKey;
+
+	protected boolean selectedChildIsJoint;
 	
 	/**
      * Hide dialog and kill running async task
@@ -65,7 +67,6 @@ public abstract class BubuCollectionActivity extends BubuBaseActivity
 	
     /**
      * Used to refresh content of collection
-     * @param cd
      */
     protected abstract void handleRefresh();
     

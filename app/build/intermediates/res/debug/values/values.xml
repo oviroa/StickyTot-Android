@@ -241,6 +241,11 @@
     <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="bbInviteRemovedText">you are no longer a joint user</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/configuration.xml -->
+    <eat-comment/>
+    <string name="bbIsJoint">isJoint</string>
+    <!-- From: file:/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="bbJointUser">joint user</string>
     <string name="bbJointUserEmailLabel">enter user\'s email</string>
     <string name="bbJointUserEmailLabelApproved">the joint user invitation was approved</string>

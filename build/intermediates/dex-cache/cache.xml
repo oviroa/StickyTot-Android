@@ -6,35 +6,35 @@
         jumboMode="false"
         revision="22.0.1"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/oroatis/Documents/Brita/Alarm/Android/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-0c5df44560e40ef87e58dd4c4e21c4de1290120d.jar" />
+        <dex dex="/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-0c5df44560e40ef87e58dd4c4e21c4de1290120d.jar" />
     </item>
     <item
-        jar="/Users/oroatis/Documents/Brita/Alarm/Android/BubuAndroidSVN/app/libs/acra-4.4.0.jar"
+        jar="/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/libs/libGoogleAnalytics.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d2613d074b20674c3d05d6d8615292b6172d1366">
-        <dex dex="/Users/oroatis/Documents/Brita/Alarm/Android/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/acra-4.4.0-f2490933cd1c687ab1193d7f48b789ae642088d5.jar" />
+        sha1="8d0254fe638021ff2ae4fe5bd53c2937006fdab5">
+        <dex dex="/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/libGoogleAnalytics-8c7e362fa7ca637c5dd60e1d960ae72f9f9141d2.jar" />
     </item>
     <item
         jar="/Users/oroatis/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/1.6.2/7a0525fe460ef5b99ea3152e6d2c0e4f24f04c51/joda-time-1.6.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="7a0525fe460ef5b99ea3152e6d2c0e4f24f04c51">
-        <dex dex="/Users/oroatis/Documents/Brita/Alarm/Android/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/joda-time-1.6.2-f63f82514d7a55deaf8482b3214c3694900506d4.jar" />
+        <dex dex="/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/joda-time-1.6.2-f63f82514d7a55deaf8482b3214c3694900506d4.jar" />
+    </item>
+    <item
+        jar="/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/libs/acra-4.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d2613d074b20674c3d05d6d8615292b6172d1366">
+        <dex dex="/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/acra-4.4.0-da44683ed07e5c7f3a09c678a0719667b8006344.jar" />
     </item>
     <item
         jar="/Users/oroatis/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.1/697e3a1fa094a983cd12f7f6f61abf9c6ea52e2/gson-1.7.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="0697e3a1fa094a983cd12f7f6f61abf9c6ea52e2">
-        <dex dex="/Users/oroatis/Documents/Brita/Alarm/Android/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/gson-1.7.1-2038319209ad41b9cc1c23a5ada1c9cce59b30f3.jar" />
-    </item>
-    <item
-        jar="/Users/oroatis/Documents/Brita/Alarm/Android/BubuAndroidSVN/app/libs/libGoogleAnalytics.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8d0254fe638021ff2ae4fe5bd53c2937006fdab5">
-        <dex dex="/Users/oroatis/Documents/Brita/Alarm/Android/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/libGoogleAnalytics-24115ddb0d2577050d9c1e63a6806d43f8428280.jar" />
+        <dex dex="/Users/oroatis/Documents/workspace/BubuAndroidSVN/app/build/intermediates/pre-dexed/debug/gson-1.7.1-2038319209ad41b9cc1c23a5ada1c9cce59b30f3.jar" />
     </item>
 
 </items>

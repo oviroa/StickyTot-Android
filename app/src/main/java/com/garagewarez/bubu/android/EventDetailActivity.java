@@ -78,8 +78,8 @@ public class EventDetailActivity extends BubuFormActivity
 	//kid dimensions
 	private Float height = (float) 0;
 	private Float weight = (float) 0;
-	
-	
+
+
 	//kids name
 	private String name;
 	
@@ -405,9 +405,7 @@ public class EventDetailActivity extends BubuFormActivity
             speakButton.setEnabled(false);
         }
         
-        
-        
-        
+
         //construct datepicker
    		constructDatePicker(R.id.bbEventDateField);
 		
