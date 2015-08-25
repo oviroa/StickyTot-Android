@@ -17,7 +17,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 import com.garagewarez.bubu.android.base.BubuBaseActivity;
 import com.garagewarez.bubu.android.utils.Tools;
 import com.garagewarez.bubu.android.utils.Debug;
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.koushikdutta.ion.Ion;
 
 
 public class MilestonesActivity extends BubuBaseActivity implements SeekBar.OnSeekBarChangeListener
@@ -89,15 +89,12 @@ public class MilestonesActivity extends BubuBaseActivity implements SeekBar.OnSe
     	//child image
     	ImageView thumb = (ImageView)findViewById(R.id.bbChildImage);
     	//add image
-    	thumb.setBackgroundResource(R.drawable.transparent);
+    	thumb.setBackgroundResource(R.drawable.rounded_corners_noimage);
     	
     	//icon
-    	UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-    	UrlImageView.setUrlDrawable
-		(
-			thumb, 
-			thumbUrl
-		);
+    	Ion.with(thumb).
+				placeholder(R.drawable.transparent).
+				load(thumbUrl);
     	
     	//seek bar
     	seekBarVP = (SeekBar)this.findViewById(R.id.bbSeekBarVP);

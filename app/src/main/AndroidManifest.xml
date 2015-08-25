@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.garagewarez.bubu.android"
     android:installLocation="auto"
-    android:versionCode="33"
-    android:versionName="1.5.1" >
+    android:versionCode="37"
+    android:versionName="1.5.5" >
 
     <uses-sdk
         android:minSdkVersion="8"

@@ -11,8 +11,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.garagewarez.bubu.android.R;
-
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.koushikdutta.ion.Ion;
 
 /**
  * Custom view, displays one clickable milestone (pic and date)
@@ -54,14 +53,11 @@ public class MilestoneView extends ScrollView
 	     //assign and load image   
 		 ImageView image = (ImageView) view.findViewById(R.id.bbMilestoneImage);
 		//add image to form 
-		 	image.setBackgroundResource(R.drawable.transparent);
-		 	UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-		 	UrlImageView.setUrlDrawable
-	  		(
-	  			image, 
-	  			imageUrl
-	  		);
-	  	   
+		 image.setBackgroundResource(R.drawable.rounded_corners_noimage);
+
+		 Ion.with(image).
+				 placeholder(R.drawable.transparent).
+				 load(imageUrl);
 	  	   
 		 
 		 //set text (date)

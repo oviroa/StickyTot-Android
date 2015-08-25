@@ -59,7 +59,7 @@ import com.garagewarez.bubu.android.utils.CustomBuilder;
 import com.garagewarez.bubu.android.utils.Debug;
 import com.garagewarez.bubu.android.utils.ScreenUtil;
 import com.garagewarez.bubu.android.utils.Tools;
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.koushikdutta.ion.Ion;
 
 /**
  * Activity showing list of events
@@ -225,18 +225,16 @@ public class EventsActivity extends BubuCollectionActivity implements SeekBar.On
     	//child image
     	ImageView thumb = (ImageView)findViewById(R.id.bbChildImage);
     	//add image
-    	thumb.setBackgroundResource(R.drawable.transparent);
-    	UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-    	UrlImageView.setUrlDrawable
-		(
-			thumb, 
-			thumbUrl
-		);
-    	
+    	thumb.setBackgroundResource(R.drawable.rounded_corners_noimage);
+		Ion.with(thumb).
+				placeholder(R.drawable.transparent).
+				load(thumbUrl);
+
+
 //________handle async task
     	
     	//check if async task is running, kill it if so and remove progress dialog
-    	handleRunningAsyncTask((DeleteTask)getLastNonConfigurationInstance());
+    	handleRunningAsyncTask((DeleteTask) getLastNonConfigurationInstance());
     	
     	
         //_________handle data refresh and events for CD2M

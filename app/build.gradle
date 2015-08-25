@@ -38,6 +38,7 @@ dependencies {
     compile 'com.google.code.gson:gson:1.7.1'
     compile 'joda-time:joda-time:1.6.2'
     compile files('libs/libGoogleAnalytics.jar')
+    compile 'com.koushikdutta.ion:ion:2.+'
     compile('com.crashlytics.sdk.android:crashlytics:2.5.1@aar') {
         transitive = true;
     }

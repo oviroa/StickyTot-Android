@@ -573,7 +573,7 @@ public class KidsActivity extends BubuCollectionActivity
 		        		    			sharedImageUri == null ||
 		        		    			(
 		        		    				sharedImageUri != null &&
-		        		    				childResponse.getList().get((int)id).getParentKey().equals(pk)
+													!childResponse.getList().get((int)id).getIsJoint()
 		        		    			)
 		        		    	  )
 		        		    	{	

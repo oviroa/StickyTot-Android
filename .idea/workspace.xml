@@ -12,20 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b05242ab-7d42-4f83-8e19-fbf540aa0d89" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/acra-4.4.0-f2490933cd1c687ab1193d7f48b789ae642088d5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/libGoogleAnalytics-24115ddb0d2577050d9c1e63a6806d43f8428280.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/AccountActivity$GetTokenTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/AccountActivity$GetTokenTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/AccountActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/AccountActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuBaseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuBaseActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuCollectionActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuCollectionActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuCollectionActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuCollectionActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/androidasync_2_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/answers_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/beta_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/crashlytics_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/crashlytics_core_2_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/fabric_1_3_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ion_2_1_6.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/acra_4_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gson_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/utils/UrlImageView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/koushikdutta/urlimageviewhelper/SoftReferenceHashTable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/koushikdutta/urlimageviewhelper/UrlImageCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/koushikdutta/urlimageviewhelper/UrlImageViewHelper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/koushikdutta/urlimageviewhelper/UrlImageViewHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/gson-1.7.1-2038319209ad41b9cc1c23a5ada1c9cce59b30f3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/utils/UrlImageView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/koushikdutta/urlimageviewhelper/SoftReferenceHashTable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/koushikdutta/urlimageviewhelper/UrlImageCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/koushikdutta/urlimageviewhelper/UrlImageViewHelper.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$ImageTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity$ImageTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/BubuFormActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/common/ChildData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/common/ChildData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$SaveTask$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$SaveTask$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$SaveTask$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$SaveTask$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$SaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity$SaveTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ChildDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ErrorMessageActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/ErrorMessageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/common/EventData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/common/EventData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$2$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$2.class" />
@@ -35,7 +54,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$SaveTask$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$SaveTask$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$SaveTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity$SaveTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventDetailActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$4.class" />
@@ -45,8 +63,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventShowActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$5.class" />
@@ -55,53 +71,69 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$DeleteTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$DeleteTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$EventsViewPagerChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity$EventsViewPagerChangeListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsAdapter$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/EventsAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity$RotationSafeAsyncTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity$RotationSafeAsyncTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/JointUserFormActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$DeleteTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$DeleteTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$GetEventsTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$GetEventsTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$ImageTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity$ImageTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsAdapter$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/KidsAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MyC2dmReceiver$UpdateAllTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MyC2dmReceiver$UpdateAllTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/MilestoneView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/MilestoneView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/MilestoneView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/base/MilestoneView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity$MilestonesViewPagerChangeListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity$MilestonesViewPagerChangeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/MilestonesActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/proxy/Proxy.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/proxy/Proxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/garagewarez/bubu/android/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/gson-1.7.1-2038319209ad41b9cc1c23a5ada1c9cce59b30f3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/gson-1.7.1-2038319209ad41b9cc1c23a5ada1c9cce59b30f3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/joda-time-1.6.2-f63f82514d7a55deaf8482b3214c3694900506d4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/joda-time-1.6.2-f63f82514d7a55deaf8482b3214c3694900506d4.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-0c5df44560e40ef87e58dd4c4e21c4de1290120d.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-0c5df44560e40ef87e58dd4c4e21c4de1290120d.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuCollectionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuCollectionActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildData.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuFormActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuFormActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/garagewarez/bubu/android/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/garagewarez/bubu/android/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/ChildDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/ChildDetailActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventDetailActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventShowActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventShowActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/garagewarez/bubu/android/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/garagewarez/bubu/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/MilestoneView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/MilestoneView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/MilestonesActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/MilestonesActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/proxy/Proxy.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/proxy/Proxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/configuration.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/configuration.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_detail.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/event_detail.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/event_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_detail_landscape.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_detail_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/event_detail_landscape.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/event_detail_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/event_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/event_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/event_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/event_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list_item_landscape.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list_item_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/event_list_item_landscape.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/event_list_item_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list_landscape.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/event_list_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/event_list_landscape.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/event_list_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/kids_list_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/kids_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/kids_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/kids_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BubuAndroidSVN.iws" />
@@ -123,94 +155,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="KidsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4259257">
-              <caret line="989" column="78" selection-start-line="989" selection-start-column="78" selection-end-line="989" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
-                <element signature="e#16039#16392#0" expanded="true" />
-                <element signature="e#16391#16392#0" expanded="true" />
-                <element signature="e#25124#25174#0" expanded="true" />
-                <element signature="e#25247#25291#0" expanded="true" />
+                <element signature="e#993#1011#0" expanded="true" />
+                <element signature="e#1346#1364#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventsActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsActivity.java">
+      <file leaf-file-name="BubuFormActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuFormActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4259257">
-              <caret line="666" column="65" selection-start-line="666" selection-start-column="65" selection-end-line="666" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
               <folding>
-                <element signature="e#4038#4090#0" expanded="true" />
-                <element signature="e#4184#4240#0" expanded="true" />
-                <element signature="e#4479#4519#0" expanded="true" />
-                <element signature="e#4563#4608#0" expanded="true" />
-                <element signature="e#4653#4699#0" expanded="true" />
-                <element signature="e#4754#4798#0" expanded="true" />
-                <element signature="e#4838#4884#0" expanded="true" />
-                <element signature="e#4928#4978#0" expanded="true" />
-                <element signature="e#6626#6666#0" expanded="true" />
-                <element signature="e#9231#9279#0" expanded="true" />
-                <element signature="e#10069#10113#0" expanded="true" />
-                <element signature="e#10266#10310#0" expanded="true" />
-                <element signature="e#10465#10509#0" expanded="true" />
-                <element signature="e#10653#10697#0" expanded="true" />
-                <element signature="e#14091#14135#0" expanded="true" />
-                <element signature="e#14319#14363#0" expanded="true" />
-                <element signature="e#14542#14586#0" expanded="true" />
-                <element signature="e#14754#14798#0" expanded="true" />
-                <element signature="e#14945#14989#0" expanded="true" />
-                <element signature="e#16618#16626#0" expanded="true" />
-                <element signature="e#17904#17950#0" expanded="true" />
-                <element signature="e#17999#18045#0" expanded="true" />
-                <element signature="e#18075#18115#0" expanded="true" />
-                <element signature="e#18138#18183#0" expanded="true" />
-                <element signature="e#18211#18257#0" expanded="true" />
-                <element signature="e#18285#18330#0" expanded="true" />
-                <element signature="e#18407#18457#0" expanded="true" />
-                <element signature="e#23794#23846#0" expanded="true" />
-                <element signature="e#24821#24873#0" expanded="true" />
-                <element signature="e#25187#25233#0" expanded="true" />
-                <element signature="e#25632#25701#0" expanded="true" />
-                <element signature="e#25751#25823#0" expanded="true" />
-                <element signature="e#25907#25977#0" expanded="true" />
-                <element signature="e#26014#26088#0" expanded="true" />
-                <element signature="e#26440#26486#0" expanded="true" />
-                <element signature="e#26548#26588#0" expanded="true" />
-                <element signature="e#26611#26657#0" expanded="true" />
-                <element signature="e#26685#26730#0" expanded="true" />
-                <element signature="e#26757#26803#0" expanded="true" />
-                <element signature="e#26826#26876#0" expanded="true" />
-                <element signature="e#28014#28058#0" expanded="true" />
-                <element signature="e#28271#28315#0" expanded="true" />
-                <element signature="e#28536#28580#0" expanded="true" />
-                <element signature="e#28790#28834#0" expanded="true" />
-                <element signature="e#29111#29158#0" expanded="true" />
-                <element signature="e#29183#29223#0" expanded="true" />
-                <element signature="e#29269#29308#0" expanded="true" />
-                <element signature="e#30396#30444#0" expanded="true" />
-                <element signature="e#31558#31611#0" expanded="true" />
-                <element signature="e#31825#31878#0" expanded="true" />
-                <element signature="e#32044#32101#0" expanded="true" />
-                <element signature="e#33362#33402#0" expanded="true" />
-                <element signature="e#33431#33485#0" expanded="true" />
-                <element signature="e#33522#33568#0" expanded="true" />
-                <element signature="e#33597#33642#0" expanded="true" />
-                <element signature="e#33670#33716#0" expanded="true" />
-                <element signature="e#33739#33789#0" expanded="true" />
-                <element signature="e#37905#37960#0" expanded="true" />
-                <element signature="e#37995#38050#0" expanded="true" />
-                <element signature="e#38059#38118#0" expanded="true" />
-                <element signature="e#38145#38185#0" expanded="true" />
-                <element signature="e#38345#38387#0" expanded="true" />
-                <element signature="e#38422#38464#0" expanded="true" />
-                <element signature="e#38473#38526#0" expanded="true" />
-                <element signature="e#38742#38797#0" expanded="true" />
-                <element signature="e#38835#38890#0" expanded="true" />
-                <element signature="e#38899#38952#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#9826#12016#0" expanded="true" />
+                <element signature="e#12015#12016#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-19/android/widget/ImageView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="339" column="20" selection-start-line="339" selection-start-column="20" selection-end-line="339" selection-end-column="20" />
+              <folding>
+                <element signature="e#11832#11833#0" expanded="true" />
+                <element signature="e#11864#11865#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,177 +198,96 @@
       <file leaf-file-name="EventDetailActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1666665">
-              <caret line="129" column="96" selection-start-line="129" selection-start-column="96" selection-end-line="129" selection-end-column="96" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventsAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2955#3003#0" expanded="true" />
-                <element signature="e#3928#3968#0" expanded="true" />
-                <element signature="e#4016#4062#0" expanded="true" />
-                <element signature="e#4109#4154#0" expanded="true" />
-                <element signature="e#4221#4275#0" expanded="true" />
-                <element signature="e#4318#4364#0" expanded="true" />
-                <element signature="e#4411#4461#0" expanded="true" />
-                <element signature="e#7778#7824#0" expanded="true" />
-                <element signature="e#7940#7986#0" expanded="true" />
-                <element signature="e#8055#8101#0" expanded="true" />
-                <element signature="e#8991#9036#0" expanded="true" />
-                <element signature="e#9451#9497#0" expanded="true" />
-                <element signature="e#9631#9677#0" expanded="true" />
-                <element signature="e#9943#9995#0" expanded="true" />
-                <element signature="e#11270#11310#0" expanded="true" />
-                <element signature="e#12150#12217#0" expanded="true" />
-                <element signature="e#12264#12332#0" expanded="true" />
-                <element signature="e#13808#13851#0" expanded="true" />
-                <element signature="e#14015#14058#0" expanded="true" />
-                <element signature="e#15032#15081#0" expanded="true" />
-                <element signature="e#18021#18066#0" expanded="true" />
-                <element signature="e#18094#18137#0" expanded="true" />
-                <element signature="e#18165#18214#0" expanded="true" />
-                <element signature="e#19871#19910#0" expanded="true" />
-                <element signature="e#21620#21676#0" expanded="true" />
-                <element signature="e#21802#21864#0" expanded="true" />
-                <element signature="e#22094#22158#0" expanded="true" />
-                <element signature="e#25228#25276#0" expanded="true" />
-                <element signature="e#26243#26298#0" expanded="true" />
-                <element signature="e#26656#26733#0" expanded="true" />
-                <element signature="e#26951#27028#0" expanded="true" />
-                <element signature="e#27200#27277#0" expanded="true" />
-                <element signature="e#28806#28830#0" expanded="true" />
-                <element signature="e#29136#29162#0" expanded="true" />
-                <element signature="e#30919#30974#0" expanded="true" />
-                <element signature="e#31012#31067#0" expanded="true" />
-                <element signature="e#31076#31129#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event_detail.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_detail.xml">
-          <provider editor-type-id="text-editor">
+      <file leaf-file-name="event_list_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_list_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventShowActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventShowActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="16.417768">
-              <caret line="661" column="9" selection-start-line="661" selection-start-column="9" selection-end-line="661" selection-end-column="9" />
-              <folding>
-                <element signature="e#2945#2991#0" expanded="true" />
-                <element signature="e#3054#3099#0" expanded="true" />
-                <element signature="e#3151#3197#0" expanded="true" />
-                <element signature="e#3248#3288#0" expanded="true" />
-                <element signature="e#3336#3381#0" expanded="true" />
-                <element signature="e#3428#3474#0" expanded="true" />
-                <element signature="e#3520#3570#0" expanded="true" />
-                <element signature="e#3626#3670#0" expanded="true" />
-                <element signature="e#3790#3838#0" expanded="true" />
-                <element signature="e#4767#4836#0" expanded="true" />
-                <element signature="e#4886#4958#0" expanded="true" />
-                <element signature="e#5042#5112#0" expanded="true" />
-                <element signature="e#5149#5223#0" expanded="true" />
-                <element signature="e#5905#5949#0" expanded="true" />
-                <element signature="e#6108#6152#0" expanded="true" />
-                <element signature="e#6313#6357#0" expanded="true" />
-                <element signature="e#6507#6551#0" expanded="true" />
-                <element signature="e#7778#7818#0" expanded="true" />
-                <element signature="e#8354#8406#0" expanded="true" />
-                <element signature="e#9587#9654#0" expanded="true" />
-                <element signature="e#9701#9769#0" expanded="true" />
-                <element signature="e#10129#10177#0" expanded="true" />
-                <element signature="e#10671#10719#0" expanded="true" />
-                <element signature="e#11252#11305#0" expanded="true" />
-                <element signature="e#11455#11494#0" expanded="true" />
-                <element signature="e#11865#11918#0" expanded="true" />
-                <element signature="e#12068#12107#0" expanded="true" />
-                <element signature="e#20696#20742#0" expanded="true" />
-                <element signature="e#20777#20817#0" expanded="true" />
-                <element signature="e#20840#20885#0" expanded="true" />
-                <element signature="e#20912#20958#0" expanded="true" />
-                <element signature="e#20986#21036#0" expanded="true" />
-                <element signature="e#21063#21109#0" expanded="true" />
-                <element signature="e#21330#21382#0" expanded="true" />
-                <element signature="e#21736#21782#0" expanded="true" />
-                <element signature="e#22153#22208#0" expanded="true" />
-                <element signature="e#22243#22298#0" expanded="true" />
-                <element signature="e#22307#22366#0" expanded="true" />
-                <element signature="e#22393#22433#0" expanded="true" />
-                <element signature="e#22500#22542#0" expanded="true" />
-                <element signature="e#22577#22619#0" expanded="true" />
-                <element signature="e#22628#22681#0" expanded="true" />
-                <element signature="e#22900#22955#0" expanded="true" />
-                <element signature="e#22990#23045#0" expanded="true" />
-                <element signature="e#23054#23107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configuration.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/configuration.xml">
+      <file leaf-file-name="event_list_item_landscape.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_list_item_landscape.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="27" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubuCollectionActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuCollectionActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8888888">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="42" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubuApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/BubuApp.java">
+      <file leaf-file-name="event_list_landscape.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_list_landscape.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.851852">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KidsAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.851852">
-              <caret line="129" column="24" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="24" />
-              <folding />
-            </state>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChildData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildData.java">
+      <file leaf-file-name="kids_list_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/kids_list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.851852">
-              <caret line="171" column="19" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
-              <folding>
-                <element signature="e#2305#2306#0" expanded="true" />
-                <element signature="e#2326#2327#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2399#2400#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../certs/bubukey" />
+    <option name="KEY_ALIAS" value="bubukey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -643,6 +541,16 @@
                 <option name="name" value="connectedCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Uploads an APK to Crashlytics for distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="crashlyticsUploadDistributionDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads an APK to Crashlytics for distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="crashlyticsUploadDistributionRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceAndroidTest" />
@@ -663,6 +571,14 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dexRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="fabricGenerateResourcesDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="fabricGenerateResourcesRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -848,6 +764,26 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:answers:1.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidAnswers131Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:beta:1.1.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidBeta113Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:crashlytics:2.5.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidCrashlytics251Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:crashlytics-core:2.3.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidCrashlyticsCore234Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
@@ -858,6 +794,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare io.fabric.sdk.android:fabric:1.3.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareIoFabricSdkAndroidFabric135Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1139,6 +1080,16 @@
                 <option name="name" value="connectedCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Uploads an APK to Crashlytics for distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="crashlyticsUploadDistributionDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads an APK to Crashlytics for distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="crashlyticsUploadDistributionRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="dependencies" />
@@ -1169,6 +1120,14 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="dexRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="fabricGenerateResourcesDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="fabricGenerateResourcesRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1364,6 +1323,26 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:answers:1.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidAnswers131Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:beta:1.1.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidBeta113Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:crashlytics:2.5.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidCrashlytics251Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.crashlytics.sdk.android:crashlytics-core:2.3.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComCrashlyticsSdkAndroidCrashlyticsCore234Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareDebugAndroidTestDependencies" />
               </ExternalTaskPojo>
@@ -1374,6 +1353,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare io.fabric.sdk.android:fabric:1.3.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareIoFabricSdkAndroidFabric135Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1497,7 +1481,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4318466160000" />
+        <entry key="$PROJECT_DIR$" value="4319030750000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1664,10 +1648,17 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.1/697e3a1fa094a983cd12f7f6f61abf9c6ea52e2/gson-1.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/1.6.2/7a0525fe460ef5b99ea3152e6d2c0e4f24f04c51/joda-time-1.6.2.jar" />
-                            <option value="$MODULE_DIR$/libs/acra-4.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.1.6/cd55ef3ba6d8b62838b658ba2507b019dffb3a08/ion-2.1.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/crashlytics/2.5.1/6b8428d072d0d341a5d2e740f3d0a5fd3db3c8c4/crashlytics-2.5.1.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.1.6/e3d5f6ab2003e31f2cf5ea61b4731a21e9517935/androidasync-2.1.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fabric.sdk.android/fabric/1.3.5/2cdf38d65c07570d887cf6ac3023794b1974230/fabric-1.3.5.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/crashlytics-core/2.3.4/38383670ba29b387f63b36b52e00c649494d793d/crashlytics-core-2.3.4.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/beta/1.1.3/5e3a3112e6adf41e70b2382d313d963fdbc8d1bd/beta-1.1.3.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.crashlytics.sdk.android/answers/1.3.1/25bc13e79adcd8fdda63fd22d5617447962467c2/answers-1.3.1.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar" />
                             <option value="$MODULE_DIR$/libs/libGoogleAnalytics.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.fabric.tools/gradle/1.19.2/5c6d21a36a774589ffa13b61d95ff79e2a251fb8/gradle-1.19.2.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -1807,14 +1798,42 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuCollectionActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/configuration.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/ErrorHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/proxy/Connector.java" />
+        <option value="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsVPAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/BubuApp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/utils/WarmUpService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/proxy/Proxy.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/ChildDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventDetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/MilestonesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/MilestoneView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventShowActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/event_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/event_detail_landscape.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/event_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/event_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/event_list_item_landscape.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/event_list_landscape.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/kids_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuFormActivity.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -1822,7 +1841,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1649" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1848,10 +1867,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1859,6 +1875,10 @@
               <option name="myItemId" value="BubuAndroidSVN" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1868,6 +1888,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BubuAndroidSVN" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1882,32 +1924,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BubuAndroidSVN" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1924,38 +1944,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BubuAndroidSVN" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="common" />
@@ -1976,12 +1966,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
@@ -1997,13 +1983,12 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2013,7 +1998,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -2021,6 +2006,10 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="ZX1G223X26" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
     <property name="FullScreen" value="false" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../certs/bubukey" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2029,6 +2018,36 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -2086,6 +2105,11 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -2184,36 +2208,50 @@
       <option name="number" value="Default" />
       <updated>1439496259918</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added new logic for handling joint/no-joint kids.">
+      <created>1439535197802</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1439535197802</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added crashlitics. Fixed small joint user bug. Updated version for submission.">
+      <created>1439591316338</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1439591316338</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1649" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33900106" sideWeight="0.4765708" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37650934" sideWeight="0.2020757" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3183315" sideWeight="0.49782202" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37650934" sideWeight="0.7979243" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2045177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22954305" sideWeight="0.47923324" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2229,64 +2267,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new logic for handling joint/no-joint kids." />
+    <MESSAGE value="Added crashlitics. Fixed small joint user bug. Updated version for submission." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added crashlitics. Fixed small joint user bug. Updated version for submission." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildResponse.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_detail.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventShowActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.851852">
-          <caret line="171" column="19" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
-          <folding>
-            <element signature="e#2305#2306#0" expanded="true" />
-            <element signature="e#2326#2327#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2399#2400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.851852">
-          <caret line="129" column="24" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuBaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9005146">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/BubuApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.851852">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-19/android.jar!/android/view/ContextThemeWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59168243">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-          </folding>
+          <caret line="661" column="9" selection-start-line="661" selection-start-column="9" selection-end-line="661" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -2294,104 +2298,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="27" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4259257">
-          <caret line="989" column="78" selection-start-line="989" selection-start-column="78" selection-end-line="989" selection-end-column="78" />
-          <folding>
-            <element signature="e#16039#16392#0" expanded="true" />
-            <element signature="e#16391#16392#0" expanded="true" />
-            <element signature="e#25124#25174#0" expanded="true" />
-            <element signature="e#25247#25291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4259257">
-          <caret line="666" column="65" selection-start-line="666" selection-start-column="65" selection-end-line="666" selection-end-column="65" />
-          <folding>
-            <element signature="e#4038#4090#0" expanded="true" />
-            <element signature="e#4184#4240#0" expanded="true" />
-            <element signature="e#4479#4519#0" expanded="true" />
-            <element signature="e#4563#4608#0" expanded="true" />
-            <element signature="e#4653#4699#0" expanded="true" />
-            <element signature="e#4754#4798#0" expanded="true" />
-            <element signature="e#4838#4884#0" expanded="true" />
-            <element signature="e#4928#4978#0" expanded="true" />
-            <element signature="e#6626#6666#0" expanded="true" />
-            <element signature="e#9231#9279#0" expanded="true" />
-            <element signature="e#10069#10113#0" expanded="true" />
-            <element signature="e#10266#10310#0" expanded="true" />
-            <element signature="e#10465#10509#0" expanded="true" />
-            <element signature="e#10653#10697#0" expanded="true" />
-            <element signature="e#14091#14135#0" expanded="true" />
-            <element signature="e#14319#14363#0" expanded="true" />
-            <element signature="e#14542#14586#0" expanded="true" />
-            <element signature="e#14754#14798#0" expanded="true" />
-            <element signature="e#14945#14989#0" expanded="true" />
-            <element signature="e#16618#16626#0" expanded="true" />
-            <element signature="e#17904#17950#0" expanded="true" />
-            <element signature="e#17999#18045#0" expanded="true" />
-            <element signature="e#18075#18115#0" expanded="true" />
-            <element signature="e#18138#18183#0" expanded="true" />
-            <element signature="e#18211#18257#0" expanded="true" />
-            <element signature="e#18285#18330#0" expanded="true" />
-            <element signature="e#18407#18457#0" expanded="true" />
-            <element signature="e#23794#23846#0" expanded="true" />
-            <element signature="e#24821#24873#0" expanded="true" />
-            <element signature="e#25187#25233#0" expanded="true" />
-            <element signature="e#25632#25701#0" expanded="true" />
-            <element signature="e#25751#25823#0" expanded="true" />
-            <element signature="e#25907#25977#0" expanded="true" />
-            <element signature="e#26014#26088#0" expanded="true" />
-            <element signature="e#26440#26486#0" expanded="true" />
-            <element signature="e#26548#26588#0" expanded="true" />
-            <element signature="e#26611#26657#0" expanded="true" />
-            <element signature="e#26685#26730#0" expanded="true" />
-            <element signature="e#26757#26803#0" expanded="true" />
-            <element signature="e#26826#26876#0" expanded="true" />
-            <element signature="e#28014#28058#0" expanded="true" />
-            <element signature="e#28271#28315#0" expanded="true" />
-            <element signature="e#28536#28580#0" expanded="true" />
-            <element signature="e#28790#28834#0" expanded="true" />
-            <element signature="e#29111#29158#0" expanded="true" />
-            <element signature="e#29183#29223#0" expanded="true" />
-            <element signature="e#29269#29308#0" expanded="true" />
-            <element signature="e#30396#30444#0" expanded="true" />
-            <element signature="e#31558#31611#0" expanded="true" />
-            <element signature="e#31825#31878#0" expanded="true" />
-            <element signature="e#32044#32101#0" expanded="true" />
-            <element signature="e#33362#33402#0" expanded="true" />
-            <element signature="e#33431#33485#0" expanded="true" />
-            <element signature="e#33522#33568#0" expanded="true" />
-            <element signature="e#33597#33642#0" expanded="true" />
-            <element signature="e#33670#33716#0" expanded="true" />
-            <element signature="e#33739#33789#0" expanded="true" />
-            <element signature="e#37905#37960#0" expanded="true" />
-            <element signature="e#37995#38050#0" expanded="true" />
-            <element signature="e#38059#38118#0" expanded="true" />
-            <element signature="e#38145#38185#0" expanded="true" />
-            <element signature="e#38345#38387#0" expanded="true" />
-            <element signature="e#38422#38464#0" expanded="true" />
-            <element signature="e#38473#38526#0" expanded="true" />
-            <element signature="e#38742#38797#0" expanded="true" />
-            <element signature="e#38835#38890#0" expanded="true" />
-            <element signature="e#38899#38952#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuCollectionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="42" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="42" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/BubuApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1703#1704#0" expanded="false" />
+            <element signature="e#1733#1734#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="24" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="171" column="19" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-19/android.jar!/android/view/ContextThemeWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59168243">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuCollectionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -2399,11 +2366,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36672968">
           <caret line="413" column="16" selection-start-line="413" selection-start-column="16" selection-end-line="413" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/proxy/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import-summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsVPAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_detail.xml">
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/garagewarez/bubu/android/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34835356">
+          <caret line="547" column="39" selection-start-line="547" selection-start-column="39" selection-end-line="547" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/utils/WarmUpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/common/ChildData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="171" column="29" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="980" column="58" selection-start-line="980" selection-start-column="58" selection-end-line="980" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuBaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="58" selection-start-line="98" selection-start-column="8" selection-end-line="102" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2120#2121#0" expanded="false" />
+            <element signature="e#2153#2154#0" expanded="false" />
+            <element signature="e#2270#2271#0" expanded="false" />
+            <element signature="e#2303#2304#0" expanded="false" />
+            <element signature="e#6611#6612#0" expanded="false" />
+            <element signature="e#6654#6655#0" expanded="false" />
+            <element signature="e#20014#20015#0" expanded="false" />
+            <element signature="e#20045#20046#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/libGoogleAnalytics.jar!/com/google/android/apps/analytics/GoogleAnalyticsTracker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/kid_list.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2414,103 +2476,255 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventDetailActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1666665">
-          <caret line="129" column="96" selection-start-line="129" selection-start-column="96" selection-end-line="129" selection-end-column="96" />
+        <state vertical-scroll-proportion="-22.222221">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/proxy/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.740741">
+          <caret line="821" column="12" selection-start-line="821" selection-start-column="12" selection-end-line="821" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/BubuApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275262">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1703#1704#0" expanded="false" />
+            <element signature="e#1733#1734#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/platforms/android-19/data/res/anim/cycle_interpolator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/down_in.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/transparent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/ChildDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="257" column="65" selection-start-line="257" selection-start-column="65" selection-end-line="257" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2955#3003#0" expanded="true" />
-            <element signature="e#3928#3968#0" expanded="true" />
-            <element signature="e#4016#4062#0" expanded="true" />
-            <element signature="e#4109#4154#0" expanded="true" />
-            <element signature="e#4221#4275#0" expanded="true" />
-            <element signature="e#4318#4364#0" expanded="true" />
-            <element signature="e#4411#4461#0" expanded="true" />
-            <element signature="e#7778#7824#0" expanded="true" />
-            <element signature="e#7940#7986#0" expanded="true" />
-            <element signature="e#8055#8101#0" expanded="true" />
-            <element signature="e#8991#9036#0" expanded="true" />
-            <element signature="e#9451#9497#0" expanded="true" />
-            <element signature="e#9631#9677#0" expanded="true" />
-            <element signature="e#9943#9995#0" expanded="true" />
-            <element signature="e#11270#11310#0" expanded="true" />
-            <element signature="e#12150#12217#0" expanded="true" />
-            <element signature="e#12264#12332#0" expanded="true" />
-            <element signature="e#13808#13851#0" expanded="true" />
-            <element signature="e#14015#14058#0" expanded="true" />
-            <element signature="e#15032#15081#0" expanded="true" />
-            <element signature="e#18021#18066#0" expanded="true" />
-            <element signature="e#18094#18137#0" expanded="true" />
-            <element signature="e#18165#18214#0" expanded="true" />
-            <element signature="e#19871#19910#0" expanded="true" />
-            <element signature="e#21620#21676#0" expanded="true" />
-            <element signature="e#21802#21864#0" expanded="true" />
-            <element signature="e#22094#22158#0" expanded="true" />
-            <element signature="e#25228#25276#0" expanded="true" />
-            <element signature="e#26243#26298#0" expanded="true" />
-            <element signature="e#26656#26733#0" expanded="true" />
-            <element signature="e#26951#27028#0" expanded="true" />
-            <element signature="e#27200#27277#0" expanded="true" />
-            <element signature="e#28806#28830#0" expanded="true" />
-            <element signature="e#29136#29162#0" expanded="true" />
-            <element signature="e#30919#30974#0" expanded="true" />
-            <element signature="e#31012#31067#0" expanded="true" />
-            <element signature="e#31076#31129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="70" selection-start-line="227" selection-start-column="70" selection-end-line="227" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/KidsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="176" column="85" selection-start-line="176" selection-start-column="85" selection-end-line="176" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/MilestonesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="70" selection-start-line="91" selection-start-column="70" selection-end-line="91" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/MilestoneView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventShowActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.417768">
-          <caret line="661" column="9" selection-start-line="661" selection-start-column="9" selection-end-line="661" selection-end-column="9" />
+        <state vertical-scroll-proportion="-0.5555556">
+          <caret line="299" column="8" selection-start-line="299" selection-start-column="8" selection-end-line="299" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_simple.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_detail_landscape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_list_item_landscape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/event_list_landscape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/kids_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/EventsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
           <folding>
-            <element signature="e#2945#2991#0" expanded="true" />
-            <element signature="e#3054#3099#0" expanded="true" />
-            <element signature="e#3151#3197#0" expanded="true" />
-            <element signature="e#3248#3288#0" expanded="true" />
-            <element signature="e#3336#3381#0" expanded="true" />
-            <element signature="e#3428#3474#0" expanded="true" />
-            <element signature="e#3520#3570#0" expanded="true" />
-            <element signature="e#3626#3670#0" expanded="true" />
-            <element signature="e#3790#3838#0" expanded="true" />
-            <element signature="e#4767#4836#0" expanded="true" />
-            <element signature="e#4886#4958#0" expanded="true" />
-            <element signature="e#5042#5112#0" expanded="true" />
-            <element signature="e#5149#5223#0" expanded="true" />
-            <element signature="e#5905#5949#0" expanded="true" />
-            <element signature="e#6108#6152#0" expanded="true" />
-            <element signature="e#6313#6357#0" expanded="true" />
-            <element signature="e#6507#6551#0" expanded="true" />
-            <element signature="e#7778#7818#0" expanded="true" />
-            <element signature="e#8354#8406#0" expanded="true" />
-            <element signature="e#9587#9654#0" expanded="true" />
-            <element signature="e#9701#9769#0" expanded="true" />
-            <element signature="e#10129#10177#0" expanded="true" />
-            <element signature="e#10671#10719#0" expanded="true" />
-            <element signature="e#11252#11305#0" expanded="true" />
-            <element signature="e#11455#11494#0" expanded="true" />
-            <element signature="e#11865#11918#0" expanded="true" />
-            <element signature="e#12068#12107#0" expanded="true" />
-            <element signature="e#20696#20742#0" expanded="true" />
-            <element signature="e#20777#20817#0" expanded="true" />
-            <element signature="e#20840#20885#0" expanded="true" />
-            <element signature="e#20912#20958#0" expanded="true" />
-            <element signature="e#20986#21036#0" expanded="true" />
-            <element signature="e#21063#21109#0" expanded="true" />
-            <element signature="e#21330#21382#0" expanded="true" />
-            <element signature="e#21736#21782#0" expanded="true" />
-            <element signature="e#22153#22208#0" expanded="true" />
-            <element signature="e#22243#22298#0" expanded="true" />
-            <element signature="e#22307#22366#0" expanded="true" />
-            <element signature="e#22393#22433#0" expanded="true" />
-            <element signature="e#22500#22542#0" expanded="true" />
-            <element signature="e#22577#22619#0" expanded="true" />
-            <element signature="e#22628#22681#0" expanded="true" />
-            <element signature="e#22900#22955#0" expanded="true" />
-            <element signature="e#22990#23045#0" expanded="true" />
-            <element signature="e#23054#23107#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-19/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="339" column="20" selection-start-line="339" selection-start-column="20" selection-end-line="339" selection-end-column="20" />
+          <folding>
+            <element signature="e#11832#11833#0" expanded="true" />
+            <element signature="e#11864#11865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#993#1011#0" expanded="true" />
+            <element signature="e#1346#1364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/garagewarez/bubu/android/base/BubuFormActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9826#12016#0" expanded="true" />
+            <element signature="e#12015#12016#0" expanded="true" />
           </folding>
         </state>
       </provider>

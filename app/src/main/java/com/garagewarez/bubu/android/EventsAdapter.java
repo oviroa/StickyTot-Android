@@ -13,10 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.garagewarez.bubu.android.common.EventData;
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.koushikdutta.ion.Ion;
 
 /**
  * Adapter for displaying custom view inside list row
@@ -111,14 +112,11 @@ public class EventsAdapter extends ArrayAdapter<EventData>
 	        //load image from url
 	        if(imageUrl != null)
 	        {	
-	        	holder.eImage.setBackgroundResource(R.drawable.transparent);
-	        	UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-	        	UrlImageView.setUrlDrawable
-        		(
-        			holder.eImage, 
-        			imageUrl
-        		);
-	        }	
+	        	holder.eImage.setBackgroundResource(R.drawable.rounded_corners_noimage);
+	        	Ion.with(holder.eImage).
+						placeholder(R.drawable.transparent).
+						load(imageUrl);
+	        }
 	       
 	        holder.heightPercentile.setText
 	        (

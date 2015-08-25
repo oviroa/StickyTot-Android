@@ -60,17 +60,7 @@
 		        android:layout_marginLeft="5dip"
 		        android:layout_toLeftOf="@id/bbSaveEventData">
 			
-			 	<ProgressBar android:indeterminate="true"
-		            android:layout_width="39dip" 
-		            android:layout_height="39dip"
-		            android:padding="5dip"
-		            android:layout_marginLeft="2dip"
-		            android:layout_marginTop="2dip"
-		            android:indeterminateDrawable="@drawable/loading_rotation"
-		            android:layout_gravity="center_vertical|center_horizontal"
-		            android:background="@drawable/rounded_corners_noimage"/>
-			      
-			 	<ImageView 
+			 	<ImageView
 			 	 	android:id="@+id/bbChildImage"
 				    android:src="@drawable/noimage" 
 				    android:layout_width="39dip"
@@ -136,17 +126,7 @@
 	        android:id="@+id/bbEventImageLayoutLow"
 	        android:layout_marginRight="10dip">
 			
-		     <ProgressBar android:indeterminate="true"
-	            android:layout_width="100dip" 
-	            android:layout_height="100dip"
-	            android:padding="10dip"
-	            android:layout_marginLeft="2dip"
-	            android:layout_marginTop="2dip"
-	            android:indeterminateDrawable="@drawable/loading_rotation"
-	            android:layout_gravity="center_vertical|center_horizontal"
-	            android:background="@drawable/rounded_corners_noimage"/> 
-		 	
-		 	 <ImageView 
+		     <ImageView
 		 	 	android:id="@+id/bbEventImage"
 			    android:src="@drawable/noimage" 
 			    android:layout_width="100dip"

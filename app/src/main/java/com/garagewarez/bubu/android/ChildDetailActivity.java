@@ -30,7 +30,7 @@ import com.garagewarez.bubu.android.common.ChildData;
 import com.garagewarez.bubu.android.common.ChildResponse;
 import com.garagewarez.bubu.android.common.Pic;
 import com.garagewarez.bubu.android.proxy.Connector.ProgressListener;
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.koushikdutta.ion.Ion;
 
 /**
  * Activity invoked when a new child is added or an existing child is being edited
@@ -253,14 +253,10 @@ public class ChildDetailActivity extends BubuFormActivity
 	    		   {	   
 
 		    		   //add image to form 
-		    		   pic.setBackgroundResource(R.drawable.transparent);
-		    		   UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-		    		   
-		    		   UrlImageView.setUrlDrawable
-		        		(
-		        			pic, 
-		        			childData.getPic().getThumb()
-		        		);
+		    		   pic.setBackgroundResource(R.drawable.rounded_corners_noimage);
+		    		   Ion.with(pic).
+							   placeholder(R.drawable.transparent).
+							   load(childData.getPic().getThumb());
 		        		
 	    		   }  
 	        	   

@@ -42,7 +42,6 @@ import com.garagewarez.bubu.android.common.RestletResponse;
 import com.garagewarez.bubu.android.proxy.Connector.ProgressListener;
 import com.garagewarez.bubu.android.utils.CookieFactory;
 import com.garagewarez.bubu.android.utils.Serializer;
-import com.garagewarez.bubu.android.utils.UrlImageView;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -819,8 +818,6 @@ public class Proxy
     		SharedPreferences.Editor editor = settings.edit();
     		editor.clear().commit();
     		
-    		
-    		UrlImageView.cleanupAll(context);
     		
     		//clear cache - phone memory
     		trimCache(context);

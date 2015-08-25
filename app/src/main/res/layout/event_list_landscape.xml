@@ -46,17 +46,7 @@
 	        android:layout_alignBottom="@id/homeButtonEventList"
 	        android:layout_marginLeft="5dip">
 		
-		 	<ProgressBar android:indeterminate="true"
-	            android:layout_width="35dip" 
-	            android:layout_height="35dip"
-	            android:padding="5dip"
-	            android:layout_marginLeft="2dip"
-	            android:layout_marginTop="2dip"
-	            android:indeterminateDrawable="@drawable/loading_rotation"
-	            android:layout_gravity="center_vertical|center_horizontal"
-	            android:background="@drawable/rounded_corners_noimage"/>
-		 	
-		 	<ImageView 
+		 	<ImageView
 		 	 	android:id="@+id/bbChildImage"
 			    android:src="@drawable/noimage" 
 			    android:layout_width="35dip"

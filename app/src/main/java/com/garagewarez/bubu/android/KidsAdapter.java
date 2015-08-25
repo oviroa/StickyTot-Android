@@ -17,7 +17,8 @@ import android.widget.TextView;
 
 import com.garagewarez.bubu.android.common.ChildData;
 import com.garagewarez.bubu.android.utils.Tools;
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
+import com.koushikdutta.ion.Ion;
 
 /**
  * Creates custom view for data rows, populates with content from value objects
@@ -27,13 +28,15 @@ import com.garagewarez.bubu.android.utils.UrlImageView;
  */
 public class KidsAdapter extends ArrayAdapter<ChildData> 
 {
- 
+
+	public GoogleAnalyticsTracker tracker;
     int resource;
     String response;
     String parentKey;
     Context context;
     Typeface tf;
     Boolean isShared = false;
+
     
     //Initialize adapter
     public KidsAdapter(Context context, int resource, List<ChildData> items, String parentKey, Boolean isShared) 
@@ -116,7 +119,7 @@ public class KidsAdapter extends ArrayAdapter<ChildData>
         		append(": ").        		
         		append(DateFormat.getDateInstance(DateFormat.MEDIUM, Locale.US).format(cd.getDob())).toString()
         );
-        
+
         holder.childGender.setText(cd.getGender());
         
         String age = Tools.getAgeStr(cd.getDob(), new Date(), context);
@@ -126,8 +129,25 @@ public class KidsAdapter extends ArrayAdapter<ChildData>
         		new StringBuffer().
         		append(age).toString() 
         );
-        
-        if(cd.getIsJoint())
+
+		//start GA
+		tracker = GoogleAnalyticsTracker.getInstance();
+		//Start the tracker in manual dispatch mode...
+		tracker.startNewSession(this.context.getResources().getString(R.string.bbGA), 20, this.context);
+		tracker.trackEvent("BugTrackJointPre", "CD::" + cd, "OK", 1);
+		tracker.trackEvent("BugTrackJointPre","Joint::"+cd.getIsJoint(),"OK",1);
+
+		//defensive check for legacy versions
+		if(cd != null) {
+			if(cd.getIsJoint() == null) {
+				cd.setIsJoint(false);
+			}
+		}
+
+		tracker.trackEvent("BugTrackJointPost","CD::"+cd,"OK",1);
+		tracker.trackEvent("BugTrackJointPost","Joint::"+cd.getIsJoint(),"OK",1);
+
+        if(cd.getIsJoint() != null && cd.getIsJoint())
         {
         	
         	if(isShared)
@@ -154,13 +174,11 @@ public class KidsAdapter extends ArrayAdapter<ChildData>
             
        if(imageUrl != null)
        {	
-    	   holder.childImage.setBackgroundResource(R.drawable.transparent);
-    	   UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-    	   UrlImageView.setUrlDrawable
-	   		(
-	   			holder.childImage, 
-	   			imageUrl
-	   		);	  
+    	   holder.childImage.setBackgroundResource(R.drawable.rounded_corners_noimage);
+		   Ion.with(holder.childImage).
+				   placeholder(R.drawable.transparent).
+				   load(imageUrl);
+
     		  
     	}	  
     	

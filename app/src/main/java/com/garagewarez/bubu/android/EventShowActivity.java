@@ -40,7 +40,7 @@ import com.garagewarez.bubu.android.common.EventData;
 import com.garagewarez.bubu.android.common.EventResponse;
 import com.garagewarez.bubu.android.utils.Convertor;
 import com.garagewarez.bubu.android.utils.Tools;
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.koushikdutta.ion.Ion;
 
 /**
  * Activity used to display read only version of Event
@@ -302,24 +302,19 @@ public class EventShowActivity extends BubuBaseActivity
         EventImageView image = (EventImageView) findViewById(R.id.bbEventDisplayImage);	
         
         ((ImageView)(image.getChildAt(1))).setBackgroundResource(R.drawable.transparent);
-        UrlImageView.setBackgroundResource(R.drawable.transparent);
-        
+
         if(eventData.getPic().getMain().equals(getResources().getString(R.string.bbDefaultImageURL)))
         {
-        	UrlImageView.setUrlDrawable
-      		(
-      				(ImageView)(image.getChildAt(1)), 
-      				new StringBuffer().append(eventData.getPic().getMain()).toString().replace(".png","_large.png")
-      		);
+        	Ion.with((ImageView)(image.getChildAt(1))).
+					placeholder(R.drawable.transparent).
+					load(new StringBuffer().append(eventData.getPic().getMain()).toString().replace(".png","_large.png"));
         	
         }	
         else
         {
-        	UrlImageView.setUrlDrawable
-      		(
-      				(ImageView)(image.getChildAt(1)), 
-      				new StringBuffer().append(eventData.getPic().getMain()).append("&and=1").toString()
-      		);
+        	Ion.with((ImageView)(image.getChildAt(1))).
+					placeholder(R.drawable.transparent).
+					load(new StringBuffer().append(eventData.getPic().getMain()).append("&and=1").toString());
         }	
         
         

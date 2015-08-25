@@ -44,7 +44,7 @@ import com.garagewarez.bubu.android.common.Pic;
 import com.garagewarez.bubu.android.proxy.Connector.ProgressListener;
 import com.garagewarez.bubu.android.proxy.Proxy;
 import com.garagewarez.bubu.android.utils.Convertor;
-import com.garagewarez.bubu.android.utils.UrlImageView;
+import com.koushikdutta.ion.Ion;
 
 /**
  * Event detail view
@@ -132,13 +132,9 @@ public class EventDetailActivity extends BubuFormActivity
     	ImageView thumb = (ImageView)findViewById(R.id.bbChildImage);
     	//add image 
     	thumb.setBackgroundResource(R.drawable.transparent);
-    	UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-    	UrlImageView.setUrlDrawable
-		(
-			thumb, 
-			thumbUrl
-		);
-        
+    	Ion.with(thumb).
+				placeholder(R.drawable.rounded_corners_noimage).
+				load(thumbUrl);
         
         
         //set default measurement
@@ -303,13 +299,10 @@ public class EventDetailActivity extends BubuFormActivity
 	     		{	
 	     		 //add image to form
 	     		  //add image to form 
-	     		  pic.setBackgroundResource(R.drawable.transparent);
-	     		  UrlImageView.setBackgroundResource(R.drawable.rounded_corners_noimage);
-	     		  UrlImageView.setUrlDrawable
-	        		(
-	        			pic, 
-	        			eventData.getPic().getThumb()
-	        		);
+	     		  pic.setBackgroundResource(R.drawable.rounded_corners_noimage);
+	     		  Ion.with(pic).
+							placeholder(R.drawable.transparent).
+							load(eventData.getPic().getThumb());
 	     		}
 	     		
 	         }

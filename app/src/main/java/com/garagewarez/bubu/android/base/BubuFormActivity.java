@@ -33,6 +33,7 @@ import com.garagewarez.bubu.android.R;
 import com.garagewarez.bubu.android.SourcesAdapter;
 import com.garagewarez.bubu.android.utils.Debug;
 import com.garagewarez.bubu.android.utils.Tools;
+import com.koushikdutta.ion.Ion;
 
 public abstract class BubuFormActivity extends BubuBaseActivity 
 {
@@ -344,8 +345,8 @@ public abstract class BubuFormActivity extends BubuBaseActivity
     	    {
 				//set state legacy image from internet retrieved image
 				//it will be used to handle state refreshes in orientation changes
-				if(pic.getDrawable() != null && !((BitmapDrawable)pic.getDrawable()).getBitmap().isRecycled()) 
-					((BubuApp)getApplicationContext()).setLegacyImage(((BitmapDrawable)pic.getDrawable()).getBitmap());
+				if(Ion.with(pic).getBitmap() != null && !Ion.with(pic).getBitmap().isRecycled())
+					((BubuApp)getApplicationContext()).setLegacyImage(Ion.with(pic).getBitmap());
 				
 				switch(item)
     	    	{
@@ -512,11 +513,11 @@ public abstract class BubuFormActivity extends BubuBaseActivity
 	    		{	
 	    			
 	    			//recycle only if image not placeholder since we need that
-					if(pic.getDrawable() != null && ((BitmapDrawable)pic.getDrawable()).getBitmap() != null)
-						if(!((BitmapDrawable)pic.getDrawable()).getBitmap().sameAs(((BitmapDrawable)getResources().getDrawable(R.drawable.noimage)).getBitmap()))
+					if(Ion.with(pic).getBitmap() != null)
+						if(!Ion.with(pic).getBitmap().sameAs(((BitmapDrawable)getResources().getDrawable(R.drawable.noimage)).getBitmap()))
 						{	
 							pic.setImageDrawable(null);
-							((BitmapDrawable)pic.getDrawable()).getBitmap().recycle();
+							Ion.with(pic).getBitmap().recycle();
 							pic.setImageBitmap(null);
 							((BubuApp)getApplicationContext()).setBitmapWasRecycled(true);
 							
@@ -524,7 +525,7 @@ public abstract class BubuFormActivity extends BubuBaseActivity
 		   		
 					
 					pic.setImageBitmap(thumbnail);
-					rotationButton.setVisibility(0);
+					rotationButton.setVisibility(View.INVISIBLE);
 					
 					
 					//kill selected image and legacy image
